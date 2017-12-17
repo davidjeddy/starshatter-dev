@@ -31,3 +31,6 @@ Though recent wrapped in a docker container for portability this site IS NOT:
 # Goal:
 Simply to keep some of the original projects that got me into web technologies alive and viewable for the public. Also
 gives me a body of content to try new system architecture with.
+
+# Road map:
+n/a project is for historic reference only.

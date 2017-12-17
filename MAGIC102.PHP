@@ -1,7 +1,7 @@
 <html>
 <HEAD>
 <?PHP
-include('scripts/executetime.php');
+include('SCRIPTS/executetime.php');
 ?>
 <title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
 <meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
@@ -12,26 +12,26 @@ include('scripts/executetime.php');
 <meta http-equiv="expires" content="30">
 
 <STYLE>
-IMG {behavior:url("scripts/pngbehavior.htc");}
+IMG {behavior:url("SCRIPTS/pngbehavior.htc");}
 </STYLE>
 <LINK title="main" href="css/main.css" type="text/css" rel="stylesheet">
 <LINK title="windef" href="css/windef.css" type="text/css" rel="alternate stylesheet">
 <LINK title="aqublu" href="css/aqublu.css" type="text/css" rel="alternate stylesheet">
 <!--used to change css's-->
-<SCRIPT src="scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="SCRIPTS/styleswitcher.js" type="text/javascript"></SCRIPT>
 <SCRIPT language="JavaScript">
 icon_image = new Image();
 icon_image.src="ssd.ico";
 </SCRIPT>
 <LINK REL="SHORTCUT ICON" HREF="ssd.ico" >
-<SCRIPT LANGUAGE=javascript src="scripts/lines.js"></SCRIPT>
+<SCRIPT LANGUAGE=javascript src="SCRIPTS/lines.js"></SCRIPT>
 </HEAD>
 <body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
 <!--used to show the menu-->
-<SCRIPT language=JavaScript src="scripts/menu_array.js"type="text/javascript"></SCRIPT>
+<SCRIPT language=JavaScript src="SCRIPTS/menu_array.js"type="text/javascript"></SCRIPT>
 
-<script src="scripts/titlelines.js"></script>
-<script src="scripts/menu.js"></script>
+<script src="SCRIPTS/titlelines.js"></script>
+<script src="SCRIPTS/menu.js"></script>
 <div class="bodytable">
 
 
@@ -48,7 +48,7 @@ icon_image.src="ssd.ico";
 <td class="sixsix" valign="top"><font class="newtitle">Magic 102- tutorial.</font></td>
 
 <td rowspan="99" width="100" class="fourfour" height="100%" valign="top">
-<script src="scripts/rightsidemenu.js"></script>
+<script src="SCRIPTS/rightsidemenu.js"></script>
 </td>
 </tr>
 
@@ -74,7 +74,7 @@ nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the tool bar click on the 'Make Sphere' bu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next we need to rotate the sphere so that the polar (top and bottom) become our bow and aft (front / back).<BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the sphere still yellow (which means it is selected) click on the ZY window once. You will probly notice that nothing happend. thats ok all we did was pick the window we are about to use. Now goto the toolbar and click on the 'rotate button'.<BR>
 <table align="center" border="2" class="sotw"><tr><td><a href="tutorials/imgs/magic102/m102-5.jpg" target="_new" BORDER="0"><IMG SRC="tutorials/imgs/magic102/tmb-m102-5.jpg" BORDER="0" align="center"></A></TD></TR></TABLE><BR><BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ok, go back to the ZY window click and hold the left mouse button down and move to the right untill you have rotated the sphere 90º then release. You should have this:<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ok, go back to the ZY window click and hold the left mouse button down and move to the right untill you have rotated the sphere 90ï¿½ then release. You should have this:<BR>
 <table align="center" border="2" class="sotw"><tr><td><a href="tutorials/imgs/magic102/m102-6.jpg" target="_new" BORDER="0"><IMG SRC="tutorials/imgs/magic102/tmb-m102-6.jpg" BORDER="0" align="center"></A></TD></TR></TABLE><BR><BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ok, now we are going to do the same thing but on the ZX window. Click on the window, click 'rotate' and rotate 90. The ZX window shouldlook like this:<BR>
 <table align="center" border="2" class="sotw"><tr><td><a href="tutorials/imgs/magic102/m102-7.jpg" target="_new" BORDER="0"><IMG SRC="tutorials/imgs/magic102/tmb-m102-7.jpg" BORDER="0" align="center"></A></TD></TR></TABLE><BR><BR>
@@ -120,11 +120,11 @@ nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the tool bar click on the 'Make Sphere' bu
 </tr>
 <tr><td class="sixsix" align="center" valign="bottom">
 <font>
-<?PHP include('scripts/executetime2.php');?>
+<?PHP include('SCRIPTS/executetime2.php');?>
 </font>
 </td></tr>
 </table>
-<script src="scripts/contact-copyright.js"></script>
+<script src="SCRIPTS/contact-copyright.js"></script>
 </div>
 
 </body>

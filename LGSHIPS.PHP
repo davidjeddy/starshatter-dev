@@ -1,7 +1,7 @@
 <html>
 <HEAD>
 <?PHP
-include('scripts/executetime.php');
+include('SCRIPTS/executetime.php');
 ?>
 <title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
 <meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
@@ -12,26 +12,26 @@ include('scripts/executetime.php');
 <meta http-equiv="expires" content="30">
 
 <STYLE>
-IMG {behavior:url("scripts/pngbehavior.htc");
+IMG {behavior:url("SCRIPTS/pngbehavior.htc");
 </STYLE>
 <LINK title="main" href="css/main.css" type="text/css" rel="stylesheet">
 <LINK title="windef" href="css/windef.css" type="text/css" rel="alternate stylesheet">
 <LINK title="aqublu" href="css/aqublu.css" type="text/css" rel="alternate stylesheet">
 <!--used to change css's-->
-<SCRIPT src="scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="SCRIPTS/styleswitcher.js" type="text/javascript"></SCRIPT>
 <SCRIPT language="JavaScript">
 icon_image = new Image();
 icon_image.src="ssd.ico";
 </SCRIPT>
 <LINK REL="SHORTCUT ICON" HREF="ssd.ico" >
-<SCRIPT LANGUAGE=javascript src="scripts/lines.js"></SCRIPT>
+<SCRIPT LANGUAGE=javascript src="SCRIPTS/lines.js"></SCRIPT>
 </HEAD>
 <body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
 <!--used to show the menu-->
-<SCRIPT language=JavaScript src="scripts/menu_array.js"type="text/javascript"></SCRIPT>
+<SCRIPT language=JavaScript src="SCRIPTS/menu_array.js"type="text/javascript"></SCRIPT>
 
-<script src="scripts/titlelines.js"></script>
-<script src="scripts/menu.js"></script>
+<script src="SCRIPTS/titlelines.js"></script>
+<script src="SCRIPTS/menu.js"></script>
 <div class="bodytable">
 
 
@@ -42,7 +42,7 @@ icon_image.src="ssd.ico";
 		<td class="sixsix" colspan="2"><font class="newtitle">Large ship- Things that kick ass 1st and take names later.</font>
 		</td>
 		<td rowspan="99" width="100" class="fourfour" height="100%" valign="top">
-		<script src="scripts/rightsidemenu.js"></script>
+		<script src="SCRIPTS/rightsidemenu.js"></script>
 		</td>
 	</tr>
 	<tr>
@@ -123,7 +123,6 @@ searching and getting the length of the username, we then parse it off
 			if ($countingtilldash1>21)
 				{
 					break;
-					return;
 				}
 			if ($lookingfordashtoend1 == "/")
 				{
@@ -154,7 +153,6 @@ searching and getting the mod, then if it is original or SS keep it, else trash 
 			if ($countingtilldash2>21)
 				{
 					break;
-					return;
 				}
 			if ($lookingfordashtoend2 == "/")
 				{
@@ -185,7 +183,6 @@ we search and get the object_class,
 					if ($countingtilldash3>21)
 						{
 							break;
-							return;
 						}
 					if ($lookingfordashtoend3 == "/")
 						{
@@ -223,7 +220,6 @@ now here will check to see if the ship is of a class we want on this page- here 
 							if ($countingtilldash4>21)
 								{
 									break;
-									return;
 								}
 							if ($lookingfordashtoend4 == "/")
 								{
@@ -262,7 +258,6 @@ for the moding
 						{
 							//echo "bad count looking for slash<BR><BR><BR><BR>";
 							break;
-							return;
 						}
 /**
 end mod end
@@ -274,7 +269,6 @@ end mod end
 						{
 							//echo "bad count looking for slash<BR><BR><BR><BR>";
 							break;
-							return;
 						}
 				}
 			elseif($countingtilldash>14)
@@ -290,7 +284,8 @@ end mod end
 //if the path is a link follow it
 								if (is_dir($filepath))
 									{
-										$thisdir['struct'][] = RecurseDir($filepath,$file);
+									    $var = ($filepath ? $filepath :$file);
+										$thisdir['struct'][] = RecurseDir($var);
 									}
 //if its not a path lin
 								else
@@ -323,11 +318,11 @@ end mod end
 <tr>
 <td class="sixsix" align="center" valign="bottom">
 <font>
-<?PHP include('scripts/executetime2.php');?>
+<?PHP include('SCRIPTS/executetime2.php');?>
 </font>
 </td></tr>
 </table>
-<script src="scripts/contact-copyright.js"></script>
+<script src="SCRIPTS/contact-copyright.js"></script>
 </div>
 </body>
 </html>

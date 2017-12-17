@@ -1,7 +1,7 @@
 <html>
 <HEAD>
 <?PHP
-include('../../scripts/executetime.php');
+include('../../SCRIPTS/executetime.php');
 ?>
 <title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
 <STYLE>

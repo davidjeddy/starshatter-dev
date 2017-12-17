@@ -1,7 +1,7 @@
 <html>
 <HEAD>
 <?PHP
-include('scripts/executetime.php');
+include('SCRIPTS/executetime.php');
 ?>
 <title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
 <meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
@@ -12,22 +12,22 @@ include('scripts/executetime.php');
 <meta http-equiv="expires" content="30">
 
 <STYLE>
-IMG {behavior:url("scripts/pngbehavior.htc");}
+IMG {behavior:url("SCRIPTS/pngbehavior.htc");}
 </STYLE>
 <LINK title="main" href="css/main.css" type="text/css" rel="stylesheet">
 <LINK title="windef" href="css/windef.css" type="text/css" rel="alternate stylesheet">
 <LINK title="aqublu" href="css/aqublu.css" type="text/css" rel="alternate stylesheet">
 <!--used to change css's-->
-<SCRIPT src="scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="SCRIPTS/styleswitcher.js" type="text/javascript"></SCRIPT>
 <SCRIPT language="JavaScript">
 icon_image = new Image();
 icon_image.src="ssd.ico";
 </SCRIPT>
 <LINK REL="SHORTCUT ICON" HREF="ssd.ico" />
-<SCRIPT LANGUAGE="javascript" src="scripts/lines.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" src="SCRIPTS/lines.js"></SCRIPT>
 
 
-<SCRIPT SRc="scripts/menubutton.js"></SCRIPT>
+<SCRIPT SRc="SCRIPTS/menubutton.js"></SCRIPT>
 <link href="css/temp.css" rel="stylesheet" type="text/css">
 
 
@@ -35,10 +35,10 @@ icon_image.src="ssd.ico";
 </HEAD>
 <body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
 <!--used to show the menu-->
-<SCRIPT language=JavaScript src="scripts/menu_array.js"type="text/javascript"></SCRIPT>
+<SCRIPT language=JavaScript src="SCRIPTS/menu_array.js"type="text/javascript"></SCRIPT>
 
-<script LANGUAGE="javascript" src="scripts/titlelines.js"></script>
-<script LANGUAGE="javascript" src="scripts/menu.js"></script>
+<script LANGUAGE="javascript" src="SCRIPTS/titlelines.js"></script>
+<script LANGUAGE="javascript" src="SCRIPTS/menu.js"></script>
 <div class="bodytable">
 
 
@@ -156,11 +156,11 @@ Date Added: 8/25/2k2<br>
 
 <TR><TD class="sixsix" align="center" valign="bottom">
 <font>
-<?PHP include('scripts/executetime2.php');?>
+<?PHP include('SCRIPTS/executetime2.php');?>
 </font>
 </TD></TR>
 </table>
-<script LANGUAGE="javascript" src="scripts/contact-copyright.js"></script>
+<script LANGUAGE="javascript" src="SCRIPTS/contact-copyright.js"></script>
 </div>
 </body>
 </HTML>

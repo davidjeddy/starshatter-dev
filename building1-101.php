@@ -1,7 +1,7 @@
 <html>
 <HEAD>
 <?PHP
-include('scripts/executetime.php');
+include('SCRIPTS/executetime.php');
 ?>
 <title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
 <meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
@@ -12,26 +12,26 @@ include('scripts/executetime.php');
 <meta http-equiv="expires" content="30">
 
 <STYLE>
-IMG {behavior:url("scripts/pngbehavior.htc");}
+IMG {behavior:url("SCRIPTS/pngbehavior.htc");}
 </STYLE>
 <LINK title="main" href="css/main.css" type="text/css" rel="stylesheet">
 <LINK title="windef" href="css/windef.css" type="text/css" rel="alternate stylesheet">
 <LINK title="aqublu" href="css/aqublu.css" type="text/css" rel="alternate stylesheet">
 <!--used to change css's-->
-<SCRIPT src="scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="SCRIPTS/styleswitcher.js" type="text/javascript"></SCRIPT>
 <SCRIPT language="JavaScript">
 icon_image = new Image();
 icon_image.src="ssd.ico";
 </SCRIPT>
 <LINK REL="SHORTCUT ICON" HREF="ssd.ico" >
-<SCRIPT LANGUAGE=javascript src="scripts/lines.js"></SCRIPT>
+<SCRIPT LANGUAGE=javascript src="SCRIPTS/lines.js"></SCRIPT>
 </HEAD>
 <body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
 <!--used to show the menu-->
-<SCRIPT language=JavaScript src="scripts/menu_array.js"type="text/javascript"></SCRIPT>
+<SCRIPT language=JavaScript src="SCRIPTS/menu_array.js"type="text/javascript"></SCRIPT>
 
-<script src="scripts/titlelines.js"></script>
-<script src="scripts/menu.js"></script>
+<script src="SCRIPTS/titlelines.js"></script>
+<script src="SCRIPTS/menu.js"></script>
 <div class="bodytable">
 
 
@@ -46,7 +46,7 @@ icon_image.src="ssd.ico";
 <td class="sixsix" valign="top"><font class="newtitle">Building 101- tutorial.</font></td>
 
 <td rowspan="99" width="100" class="fourfour" height="100%" valign="top">
-<script src="scripts/rightsidemenu.js"></script>
+<script src="SCRIPTS/rightsidemenu.js"></script>
 </td>
 </tr>
 
@@ -66,7 +66,7 @@ icon_image.src="ssd.ico";
 <table align="center" border="2" class="sotw"><tr><td><a href="tutorials/imgs/building1/building1-2.jpg" target="_new"><img src="tutorials/imgs/building101/building1-2_mini.jpg" border="0" width="241" height="119" alt="building101-2"></a></td></tr></table><br><br>
 &nbsp;&nbsp;&nbsp;So far you should have this:<br>
 <table align="center" border="2" class="sotw"><tr><td><a href="tutorials/imgs/building1/building1-3.jpg" target="_new"><img src="tutorials/imgs/building101/building1-3_mini.jpg" border="0" width="321" height="240" alt="building101-3"></a></td></tr></table><br><br>
-3) Make yet another square: Position: X0/Y0/Z64, Size: X16/Y16/Z16. On this square highlight the top 4 vertices ( on the Z/Y panel) and align them alone the Y axis. Thirdly, center these now 2 vertices evenly so that is it about a 30-35° angele (this will be the 'roof' section).<br><br>
+3) Make yet another square: Position: X0/Y0/Z64, Size: X16/Y16/Z16. On this square highlight the top 4 vertices ( on the Z/Y panel) and align them alone the Y axis. Thirdly, center these now 2 vertices evenly so that is it about a 30-35ï¿½ angele (this will be the 'roof' section).<br><br>
 <table align="center" border="2" class="sotw"><tr><td><a href="tutorials/imgs/building1/building1-4.jpg" target="_new"><img src="tutorials/imgs/building101/building1-4_mini.jpg" border="0" width="237" height="119" alt="building101-4"></a></td>
 <td><a href="tutorials/imgs/building1/building1-5.jpg" target="_new"><img src="tutorials/imgs/building101/building1-5_mini.jpg" border="0" width="108" height="178" alt="Building101-5"></a></td></tr>
 <tr><td colspan="2" align="center"><a href="tutorials/imgs/building1/building1-6.jpg" target="_new"><img src="tutorials/imgs/building101/building1-6_mini.jpg" border="0" width="321" height="240" alt="building101-6"></a></td></tr></table><br><br>
@@ -93,7 +93,7 @@ icon_image.src="ssd.ico";
 </tr>
 <tr><td class="sixsix" align="center" valign="bottom" colspan="5">
 <font>
-<?PHP include('../../scripts/executetime2.php');?>
+<?PHP include('../../SCRIPTS/executetime2.php');?>
 </font>
 </td></tr>
 </table>

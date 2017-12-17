@@ -1,7 +1,7 @@
 <html>
 <HEAD>
 <?PHP
-include('scripts/executetime.php');
+include('SCRIPTS/executetime.php');
 ?>
 <title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
 <meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
@@ -12,26 +12,26 @@ include('scripts/executetime.php');
 <meta http-equiv="expires" content="30">
 
 <STYLE>
-IMG {behavior:url("scripts/pngbehavior.htc");}
+IMG {behavior:url("SCRIPTS/pngbehavior.htc");}
 </STYLE>
 <LINK title="main" href="css/main.css" type="text/css" rel="stylesheet">
 <LINK title="windef" href="css/windef.css" type="text/css" rel="alternate stylesheet">
 <LINK title="aqublu" href="css/aqublu.css" type="text/css" rel="alternate stylesheet">
 <!--used to change css's-->
-<SCRIPT src="scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="SCRIPTS/styleswitcher.js" type="text/javascript"></SCRIPT>
 <SCRIPT language="JavaScript">
 icon_image = new Image();
 icon_image.src="ssd.ico";
 </SCRIPT>
 <LINK REL="SHORTCUT ICON" HREF="ssd.ico" >
-<SCRIPT LANGUAGE=javascript src="scripts/lines.js"></SCRIPT>
+<SCRIPT LANGUAGE=javascript src="SCRIPTS/lines.js"></SCRIPT>
 </HEAD>
 <body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
 <!--used to show the menu-->
-<SCRIPT language=JavaScript src="scripts/menu_array.js"type="text/javascript"></SCRIPT>
+<SCRIPT language=JavaScript src="SCRIPTS/menu_array.js"type="text/javascript"></SCRIPT>
 
-<script src="scripts/titlelines.js"></script>
-<script src="scripts/menu.js"></script>
+<script src="SCRIPTS/titlelines.js"></script>
+<script src="SCRIPTS/menu.js"></script>
 <div class="bodytable">
 
 
@@ -47,7 +47,7 @@ icon_image.src="ssd.ico";
 <td class="sixsix" valign="top"><font class="newtitle">Magic 101, tutorial.</font></td>
 
 <td rowspan="99" width="100" class="fourfour" height="100%" valign="top">
-<script src="scripts/rightsidemenu.js"></script>
+<script src="SCRIPTS/rightsidemenu.js"></script>
 </td>
 </tr>
 
@@ -173,11 +173,11 @@ And a menu breakdown:<br>
 </tr>
 <tr><td class="sixsix" align="center" valign="bottom">
 <font>
-<?PHP include('scripts/executetime2.php');?>
+<?PHP include('SCRIPTS/executetime2.php');?>
 </font>
 </td></tr>
 </table>
-<script src="scripts/contact-copyright.js"></script>
+<script src="SCRIPTS/contact-copyright.js"></script>
 </div>
 </body>
 </html>

@@ -1,0 +1,579 @@
+<html>
+<HEAD>
+<?PHP include('../scripts/executetime.php'); ?>
+<title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
+<meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
+<meta name="author" content="Pheagey Grean">
+<meta name="keywords" content="Starshatter, MODs, MOD, def files, meshs, 3D meshs, SS">
+<meta name="description" content="A leading sourch for Stashatter MOD info.">
+<meta name="reply-to" content="p_grean@hotmail.com">
+<meta http-equiv="expires" content="30">
+
+<STYLE>
+IMG {behavior:url("../scripts/pngbehavior.htc");}
+</STYLE>
+<LINK title="main" href="../css/main.css" type="text/css" rel="stylesheet">
+<LINK title="windef" href="../css/windef.css" type="text/css" rel="alternate stylesheet">
+<LINK title="aqublu" href="../css/aqublu.css" type="text/css" rel="alternate stylesheet">
+<STYLE>
+A:link {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.mega {
+	FONT-WEIGHT: bold; FONT-SIZE: 24pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tinyhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinylink {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.desc {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacklink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.biglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacktext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bigtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.attrib {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; BACKGROUND: #151d28; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whitelink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.vislink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+.gameheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND: #091826; TEXT-TRANSFORM: uppercase; COLOR: #ffffa0; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgreeting {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.examplelight {
+	BACKGROUND: #091826; COLOR: white
+}
+.forumborders {
+	BACKGROUND: #294e80
+}
+.forumtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumlight {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #091826; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumdark {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #050d14; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #000000; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgray {
+	COLOR: #396eb3
+}
+.forumedit {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+</STYLE>
+<!--used to change css's-->
+<SCRIPT src="../scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT language="JavaScript">
+icon_image = new Image();
+icon_image.src="Http://ssd.servehttp.com/ssd/ssd.ico";
+</SCRIPT>
+<LINK REL="SHORTCUT ICON" HREF="Http://ssd.servehttp.com/ssd/ssd.ico" >
+<SCRIPT LANGUAGE=javascript src="../scripts/lines-secure.js"></SCRIPT>
+</HEAD>
+<body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
+<!--used to show the menu-->
+<SCRIPT language=JavaScript src="../scripts/menu_array.js"type="text/javascript"></SCRIPT>
+
+<script src="../scripts/titlelines-secure.js"></script>
+<script src="../scripts/menu-secure.js"></script>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD width=400><A href="http://starshatter.com/index.htm"><IMG height=82 
+      src="Starshatter Mod SDK_files/banner400.jpg" width=400 border=0></A> </TD>
+    <TD width=380><A href="http://starshatter.com/gameabout.htm"><SPAN 
+      class=tinylink>GAME INFO</SPAN></A> · <A 
+      href="http://starshatter.com/background.htm"><SPAN 
+      class=tinylink>BACKGROUND</SPAN></A> · <A 
+      href="http://starshatter.com/screenshots.htm"><SPAN 
+      class=tinylink>SCREENSHOTS</SPAN></A> · <BR><A 
+      href="http://starshatter.com/downloads.htm"><SPAN 
+      class=tinylink>DOWNLOADS</SPAN></A> · <A 
+      href="http://starshatter.com/forum/main.php"><SPAN 
+      class=tinylink>FORUMS</SPAN></A> · <A 
+      href="http://starshatter.com/modsdk.htm"><SPAN class=tinylink>MOD 
+      SDK</SPAN></A> </TD></TR></TBODY></TABLE>
+<TABLE>
+  <TBODY>
+  <TR vAlign=top>
+    <TD width=20>&nbsp;</TD>
+    <TD class=tinylink width=150>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+               <TD>&nbsp;Mod SDK</TD></TR></TBODY></TABLE><BR><BR><A 
+      href="Starshatter%20Mod%20SDK-intro.php"><SPAN 
+      class=tinylink>INTRO</SPAN></A><BR><BR><A 
+      href="Starshatter Mod SDK-def.htm"><SPAN class=tinylink>DEF 
+      FILES</SPAN></A><BR><BR><A href="Starshatter Mod SDK-ship.htm"><SPAN 
+      class=tinylink>SHIP DESIGN</SPAN></A><BR><BR><A 
+      href="Starshatter Mod SDK-weapon.htm"><SPAN class=tinylink>WEAPON 
+      DESIGN</SPAN></A><BR><BR><A 
+      href="Starshatter Mod SDK-mission.htm"><SPAN class=tinylink>CUSTOM 
+      MISSIONS</SPAN></A><BR><BR></TD>
+    <TD width=560>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Custom Missions</TD></TR></TBODY></TABLE><SPAN 
+      class=bigtext><BR>So you want to make a mission...<BR></SPAN><SPAN 
+      class=desc>
+      <P>You've finished your lovingly crafted Dark Flame class Imperial star 
+      destroyer, and you want to load her up in a mission and see how she 
+      performs. Well, you are in luck. Creating a custom mission for Starshatter 
+      is actually even easier than creating your new ship design was in the 
+      first place. </P>
+      <P>As with most other things, missions are defined in text files called 
+      "Mission Definition Files". These use the same basic syntax as the ship 
+      definition files that describe the properties of starships. Missions are 
+      composed of two kinds of data: the pre-mission briefing, and a list of 
+      mission elements. Briefing data includes the general type of mission, and 
+      summary information for the player such as a situation report and 
+      objectives list. Mission elements define the specific ships and space 
+      stations that are loaded into the simulation environment when you play the 
+      mission. </P></SPAN><SPAN class=bigtext><BR>Briefing Data<BR></SPAN><SPAN 
+      class=desc>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>name</TD>
+          <TD>The name of the mission. This is the name that will appear in 
+            the custom mission list, and at the top of the mission briefing 
+            screen.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>system</TD>
+          <TD>The star system in which the mission will occur. Valid choices 
+            in the current demo are Solus and Janus.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>region</TD>
+          <TD>The starting region of the mission. Valid choices are shown 
+            below.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>sitrep</TD>
+          <TD>A text description that explains the overall situation that has 
+            led up to this mission. Use this attribute to "set the scene" for 
+            the player and explain why the mission is important. The situation 
+            report is displayed at the top of the briefing screen. </TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>objective</TD>
+          <TD>A text description of the player's key objectives. This wil be 
+            displayed on the mission briefing screen.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>start</TD>
+          <TD>The start day and time of the mission. This is a string 
+            containing the day (relative to the start of the campaign) followed 
+            by a slash, followed by the time using 24 hour notation. To create a 
+            mission that starts at 5:15 PM on the third day of the campaign, use 
+            "03/17:15:00".</TD></TR></TBODY></TABLE>
+      <P>VALID REGIONS</P>Janus System: 
+      <UL>
+        <LI>Ilon 
+        <LI>Dante 
+        <LI>Janek 
+        <LI>Janek Station 
+        <LI>Alystra 
+        <LI>Navara </LI></UL>Solus System: 
+      <UL>
+        <LI>Ur 
+        <LI>Solus 
+        <LI>Telluride 
+        <LI>Omane 
+        <LI>Jalah 
+        <LI>Trellis </LI></UL><SPAN class=tinytext>Note: Janek Station and 
+      Telluride are planetary terrain regions.</SPAN> 
+      <P>EXAMPLES:</P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>MISSION
+
+name:    "Fighter Combat"
+system:  Solus
+region:  Solus
+
+sitrep:  "Tensions are rising in the neutral system of Solus. "
+         "Enemy Vipers and Cobras have been detected "
+         "patrolling Omane Sector and may begin harassing "
+         "legal shipping bound for Harmony Station. "
+         "Your element has been assigned to sweep the "
+         "Omane Sector and clear out the hostiles."
+
+objective:
+         "Fighter Sweep - destroy enemy units in Omane Sector, "
+         "and protect Harmony Station."
+
+start:   "01/08:00:00"
+</PRE></TD></TR></TBODY></TABLE><SPAN class=bigtext><BR>Mission 
+      Elements<BR></SPAN><SPAN class=desc>
+      <P>Element structures are used to define all the starships, buildings, 
+      space-stations, and fighters that will be active during the mission. 
+      Element structures are also used to create fighter squadrons aboard 
+      carriers. </P>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>name</TD>
+          <TD>The <I>callsign</I> of a fighter element, or the name of the 
+            starship or squadron being defined.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>design</TD>
+          <TD>The ship design to be used in creating the element. This can be 
+            a standard built-in ship design, or a custom ship design in the 
+            Mods\Ships directory.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>region</TD>
+          <TD>The region in which to create the element. Optional, if omitted, 
+            the default region for the mission is used.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>loc</TD>
+          <TD>The vector location (in meters) of where to create this element. 
+            In the nav map, X is east-west, Y is north-south, and Z is 
+          altitude.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>head</TD>
+          <TD>A number representing the heading or direction this unit is 
+            facing, in radians. Optional. The default heading is 0 (north) for 
+            all units.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>count</TD>
+          <TD>The number of ships in the element. Optional, default is 
+1.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>iff</TD>
+          <TD>The team number for this element. Valid choices are 0 (neutral), 
+            1 (alliance), and 2 (hegemony).</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>player</TD>
+          <TD>A number indicating which ship in the element will be controlled 
+            by the player. Optional, default is 0. Valid choices are 0 (not a 
+            player element) or 1 (lead) through the number of ships in the 
+            <B>count</B> attribute for the element. <I>Exactly one element 
+            should have a non-zero <B>player</B> attribute.</I></TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>mission</TD>
+          <TD>The mission role that this element is tasked with. Valid mission 
+            roles are shown below.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>commander</TD>
+          <TD>The name of the element that is immediately above this one in 
+            the chain of command. NPC ships will only take orders from their 
+            commander, or their commander's commander (etc.).</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>instr&nbsp;*</TD>
+          <TD>A line of text to be displayed in the Instructions window of the 
+            player's HUD during the mission. Can be repeated as often as 
+            necessary to complete the text instructions for the mission. Most 
+            commonly used in training exercises to provide walkthrough info for 
+            the player.</TD></TR>
+        <TR vAlign=top>
+          <TD colSpan=2><B>Fighter Squadron Attributes:</B></TD>
+        <TR vAlign=top>
+          <TD class=attrib>carrier</TD>
+          <TD>The name of the carrier or starbase that hosts this squadron. 
+            <I>If you include this attribute, you are defining a squadron, not 
+            an active element.</I> The number of ships in the squadron is 
+            defined by the <B>count</B> attribute.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>dead_count</TD>
+          <TD>The number of ships in this squadron that have been killed in 
+            action. These ships are not available during the mission.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>maint_count</TD>
+          <TD>The number of ships in this squadron that are currently 
+            undergoing maintenance. These ships are not immediately available 
+            during the mission, but will become available when the repairs are 
+            complete.</TD></TR>
+        <TR vAlign=top>
+          <TD colSpan=2><B>Fighter Element Attributes:</B></TD>
+        <TR vAlign=top>
+          <TD class=attrib>alert</TD>
+          <TD>Boolean indicating whether this element should start on alert 
+            (on the flight deck or runway) or in flight. Optional, default is 
+            false (meaning the element will start in flight).</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>squadron</TD>
+          <TD>The name of the squadron that this element is derived from. This 
+            indirectly indicates the carrier or starbase that this element will 
+            launch from if the <B>alert</B> attribute is set. </TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>loadout&nbsp;*</TD>
+          <TD>A structure identifying the loadouts to use for each fighter in 
+            the element. Can be repeated up to <B>count</B> times, or a single 
+            loadout can be used for all fighters in the element. </TD></TR>
+        <TR vAlign=top>
+          <TD colSpan=2><B>Direction Attributes:</B></TD>
+        <TR vAlign=top>
+          <TD class=attrib>objective</TD>
+          <TD>A structure providing specific mission objectives for this 
+            element.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>navpt&nbsp;*</TD>
+          <TD>A structure defining one step in the scripted flight plan for 
+            this element.</TD></TR></TBODY></TABLE>
+      <P>VALID MISSION ROLES</P>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>Patrol</TD>
+          <TD>Defensive combat patrol. Engage hostile fighters.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Sweep</TD>
+          <TD>Offensive combat patrol. Engage hostile fighters.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Intercept</TD>
+          <TD>Fighter mission. Destroy pre-planned fighter targets.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Strike</TD>
+          <TD>Fighter mission. Destroy pre-planned ground targets.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Assault</TD>
+          <TD>Fighter mission. Destroy pre-planned starship targets.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Escort</TD>
+          <TD>General escort. Protect the named escorted element.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Escort_Freight</TD>
+          <TD>Protect the escorted freighter.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Escort_Shuttle</TD>
+          <TD>Protect the escorted shuttle.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Escort_Strike</TD>
+          <TD>Protect the escorted strike package.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Intel</TD>
+          <TD>Intelligence gathering.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Blockade</TD>
+          <TD>Prevent ships from entering or leaving port.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Fleet</TD>
+          <TD>Starship force-on-force engagement.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Bombardment</TD>
+          <TD>Starship attack on space station.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Flight_Ops</TD>
+          <TD>Carrier flight operations.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Transport</TD>
+          <TD>General movement of starships.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Cargo</TD>
+          <TD>Freight hauling.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Training</TD>
+          <TD>An exercise in a training scenario.</TD></TR></TBODY></TABLE>
+      <P>EXAMPLES:</P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>// FLEET CARRIER:
+
+ship: {
+   name:    Archon,
+   design:  Orion,
+   loc:     (0, 0, 0),
+   count:   1,
+   iff:     1
+}
+
+// FIGHTER SQUADRON ON CARRIER:
+
+element: {
+   name:    Stallions,
+   design:  Stormhawk,
+   count:   20,
+   maint_count: 5,
+   dead_count: 5,
+   carrier: Archon, // &lt;- this makes it a squadron!
+   iff:     1,
+   loadout: { ship: -1, stations: (0, 1, 1, 0) },
+}
+
+// PLAYER: TWO-SHIP FIGHTER SWEEP
+
+element: {
+   name:    Ranger,
+   design:  Stormhawk,
+   squadron: Stallions,
+
+   loc:     (1e3, 2e3, 0),
+   mission: sweep,
+
+   objective: { cmd: intercept, tgt: Martak },
+   objective: { cmd: intercept, tgt: Malik  },
+
+   player:  1,
+   alert:   true,
+   count:   2,
+   iff:     1,
+   loadout: { ship: -1, name: "ACM Medium Range" },
+
+   navpt:   { cmd: vector, loc: (80e3,-20e3, 0), speed: 750, rgn: Solus },
+   navpt:   { cmd: vector, loc: (90e3,-70e3, 0), speed: 750, rgn: Omane },
+   navpt:   { cmd: sweep,  loc: (40e3,-70e3, 0), speed: 500, rgn: Omane },
+   navpt:   { cmd: sweep,  loc: (20e3,-30e3, 0), speed: 500, rgn: Omane },
+   navpt:   { cmd: vector, loc: (90e3,-30e3, 0), speed: 500, rgn: Omane },
+   navpt:   { cmd: vector, loc: ( 5e3, 30e3, 0), speed: 500, rgn: Solus },
+}
+</PRE></TD></TR></TBODY></TABLE><SPAN class=bigtext><BR>What to Wear: 
+      Loadouts<BR></SPAN><SPAN class=desc>
+      <P>The loadout structure is used to define specific pre-planned weapons 
+      packages for fighter elements. </P>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>ship</TD>
+          <TD>A number identifying which ship in the element to apply this 
+            loadout to. Can be -1 (meaning all ships) or a number from 0 (lead) 
+            to <B>count</B> -1. Optional, default is -1.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>name</TD>
+          <TD>The name of a standard loadout for this ship design.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>stations</TD>
+          <TD>An array of numbers indicating which weapon type is to be loaded 
+            on each hardpoint. Each number in the array corresponds to a single 
+            hardpoint, in the order they are listed in the ship definition file. 
+            The value of the number indicates which weapon type should be 
+            loaded. A value of -1 means that the hardpoint should be left empty. 
+          </TD></TR></TBODY></TABLE><SPAN class=bigtext><BR>Directions: Objectives 
+      and Navpoints<BR></SPAN><SPAN class=desc>
+      <P>Objectives and Navpoint structures tell the element (both player and 
+      AI) what to do during the mission. </P>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>cmd</TD>
+          <TD>The command for this navpoint or objective. Valid commands are 
+            shown below.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>rgn</TD>
+          <TD>The name of the region where the navpoint is located.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>loc</TD>
+          <TD>The vector location (in meters) of where to create this 
+            navpoint. In the nav map, X is east-west, Y is north-south, and Z is 
+            altitude.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>speed</TD>
+          <TD>The speed (in meters per second) that the element should use 
+            enroute to this navpoint.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>formation</TD>
+          <TD>The number of the formation that the element should use enroute 
+            to this navpoint. Valid formations are 0 (diamond), 1 (spread), 2 
+            (box), and 3 (trail).</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>tgt</TD>
+          <TD>The name of the target element for this navpoint or 
+        objective.</TD></TR></TBODY></TABLE>
+      <P>VALID COMMANDS</P>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>Vector</TD>
+          <TD>Move to the destination loc.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Launch</TD>
+          <TD>Take off from a flight deck or runway.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Dock</TD>
+          <TD>Land on a flight deck or runway.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Defend</TD>
+          <TD>Protect the target element from hostiles.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Escort</TD>
+          <TD>Protect the target element from hostiles.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Patrol</TD>
+          <TD>Engage hostiles near the location.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Sweep</TD>
+          <TD>Engage hostiles along the route to the location.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Intercept</TD>
+          <TD>Engage the named target fighter element.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Strike</TD>
+          <TD>Engage the named target ground unit.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>Assault</TD>
+          <TD>Engage the named target starship.</TD></TR></TBODY></TABLE><SPAN 
+      class=bigtext><BR>Samples<BR></SPAN><SPAN class=desc>
+      <P>Here is a link to sample mission def file: 
+      </P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A 
+      href="http://starshatter.com/M0.def"><SPAN class=desc>M0.def</SPAN></A> 
+      <BR><BR>
+      <P>You can use this sample as the basis for your own missions. Be sure to 
+      rename it to match your own mission names. And remember to save the files 
+      using a .def extension. </P></SPAN></SPAN></SPAN></SPAN></SPAN></TD>
+    <TD width=20>&nbsp;</TD></TR></TBODY>
+<TR><TD class="sixsix" align="center" valign="bottom" colspan="7">
+<font>
+<?PHP include("../scripts/executetime2.php");?>
+</font>
+</TD></TR>
+</table>
+<script src="../scripts/contact-copyright-secure.js"></script>
+
+</body>
+</HTML>

@@ -1,0 +1,99 @@
+A:link {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.mega {
+	FONT-WEIGHT: bold; FONT-SIZE: 24pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tinyhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinylink {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.desc {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacklink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.biglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacktext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bigtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.attrib {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; BACKGROUND: #151d28; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whitelink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.vislink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+.gameheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND: #091826; TEXT-TRANSFORM: uppercase; COLOR: #ffffa0; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgreeting {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.examplelight {
+	BACKGROUND: #091826; COLOR: white
+}
+.forumborders {
+	BACKGROUND: #294e80
+}
+.forumtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumlight {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #091826; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumdark {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #050d14; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #000000; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgray {
+	COLOR: #396eb3
+}
+.forumedit {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

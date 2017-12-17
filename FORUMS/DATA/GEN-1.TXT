@@ -1,0 +1,12 @@
+author:Pheagey
+timestamp:1043821273
+icon:smiley
+subject:SSD\'s  back!
+message:Well it's back and Im fixin' up some of the bugs and such. Have fun. And be good all.<br><br>Ipicked up a Magic 8 ball and it said "Outlook not so good." I said "Yea, I know, but Microsoft ships it anyways."
+###
+author:Pheagey
+timestamp:1044250823
+icon:post
+subject:SSD\'s  back!
+message:o, the ping thingies fixed. I think. I ping google and get 17ms so I geuss its fixed now.<br><br>Ipicked up a Magic 8 ball and it said "Outlook not so good." I said "Yea, I know, but Microsoft ships it anyways."
+###

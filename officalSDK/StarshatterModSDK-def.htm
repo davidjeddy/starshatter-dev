@@ -1,0 +1,275 @@
+<html>
+<HEAD>
+<?PHP include('../scripts/executetime.php'); ?>
+<title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
+<meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
+<meta name="author" content="Pheagey Grean">
+<meta name="keywords" content="Starshatter, MODs, MOD, def files, meshs, 3D meshs, SS">
+<meta name="description" content="A leading sourch for Stashatter MOD info.">
+<meta name="reply-to" content="p_grean@hotmail.com">
+<meta http-equiv="expires" content="30">
+
+<STYLE>
+IMG {behavior:url("../scripts/pngbehavior.htc");}
+</STYLE>
+<LINK title="main" href="../css/main.css" type="text/css" rel="stylesheet">
+<LINK title="windef" href="../css/windef.css" type="text/css" rel="alternate stylesheet">
+<LINK title="aqublu" href="../css/aqublu.css" type="text/css" rel="alternate stylesheet">
+<STYLE>
+A:link {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.mega {
+	FONT-WEIGHT: bold; FONT-SIZE: 24pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tinyhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinylink {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.desc {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacklink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.biglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacktext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bigtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.attrib {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; BACKGROUND: #151d28; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whitelink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.vislink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+.gameheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND: #091826; TEXT-TRANSFORM: uppercase; COLOR: #ffffa0; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgreeting {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.examplelight {
+	BACKGROUND: #091826; COLOR: white
+}
+.forumborders {
+	BACKGROUND: #294e80
+}
+.forumtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumlight {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #091826; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumdark {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #050d14; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #000000; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgray {
+	COLOR: #396eb3
+}
+.forumedit {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+</STYLE>
+<!--used to change css's-->
+<SCRIPT src="../scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT language="JavaScript">
+icon_image = new Image();
+icon_image.src="Http://ssd.servehttp.com/ssd/ssd.ico";
+</SCRIPT>
+<LINK REL="SHORTCUT ICON" HREF="Http://ssd.servehttp.com/ssd/ssd.ico" >
+<SCRIPT LANGUAGE=javascript src="../scripts/lines-secure.js"></SCRIPT>
+</HEAD>
+<body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
+<!--used to show the menu-->
+<SCRIPT language=JavaScript src="../scripts/menu_array.js"type="text/javascript"></SCRIPT>
+
+<script src="../scripts/titlelines-secure.js"></script>
+<script src="../scripts/menu-secure.js"></script>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD width=400><A href="http://starshatter.com/index.htm"><IMG height=82 
+      src="StarshatterModSDK_files/banner400.jpg" width=400 border=0></A> </TD>
+    <TD width=380><A href="http://starshatter.com/gameabout.htm"><SPAN 
+      class=tinylink>GAME INFO</SPAN></A> · <A 
+      href="http://starshatter.com/background.htm"><SPAN 
+      class=tinylink>BACKGROUND</SPAN></A> · <A 
+      href="http://starshatter.com/screenshots.htm"><SPAN 
+      class=tinylink>SCREENSHOTS</SPAN></A> · <BR><A 
+      href="http://starshatter.com/downloads.htm"><SPAN 
+      class=tinylink>DOWNLOADS</SPAN></A> · <A 
+      href="http://starshatter.com/forum/main.php"><SPAN 
+      class=tinylink>FORUMS</SPAN></A> · <A 
+      href="http://starshatter.com/modsdk.htm"><SPAN class=tinylink>MOD 
+      SDK</SPAN></A> </TD></TR></TBODY></TABLE>
+<TABLE>
+  <TBODY>
+  <TR vAlign=top>
+    <TD width=20>&nbsp;</TD>
+    <TD class=tinylink width=150>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Mod SDK</TD></TR></TBODY></TABLE><BR><BR>
+		  <A href="StarshatterModSDK-intro.htm"><SPAN class=tinylink>INTRO</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-def.htm"><SPAN class=tinylink>DEF FILES</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-ship.htm"><SPAN class=tinylink>SHIP DESIGN</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-weapon.htm"><SPAN class=tinylink>WEAPON DESIGN</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-mission.htm"><SPAN class=tinylink>CUSTOM MISSIONS</SPAN></A><BR><BR></TD>
+    <TD width=560>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;DEF File Syntax</TD></TR></TBODY></TABLE><SPAN class=desc>
+      <P>Starshatter "def" files all use the same C-like syntax. Each def file 
+      begins with a file type identifier, usually appearing by itself on the 
+      first line, that indicates what type of data are contained in the file. 
+      For mod purposes, the most important file types are: 
+      <UL>
+        <LI>SHIP 
+        <LI>MISSION 
+        <LI>WEAPON </LI></UL>
+      <P>Following the file type ID is a list of name-value attribute pairs that 
+      encode the information contained in the file. Name-value pairs are written 
+      like this:</P>
+      <P>&nbsp;&nbsp;&nbsp;<I>name</I> <B>:</B> <I>value</I> </P>
+      <P>The <I>name</I> is a symbolic identifier that consists of letters, 
+      numbers, and underscores. Names must not start with a number. Each type of 
+      def file uses a different set of names to identify the attributes of the 
+      object being modeled. </P>
+      <P>The <I>value</I> side of the declaration contains the value of the 
+      attribute identified by the <I>name</I>. Values may be of the following 
+      data types: </P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=2 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Type</TD>
+          <TD>&nbsp;Description</TD>
+          <TD>&nbsp;Samples</TD></TR>
+        <TR class=forumdark>
+          <TD>boolean</TD>
+          <TD>boolean logic values</TD>
+          <TD><CODE>true</CODE> or <CODE>false</CODE></TD></TR>
+        <TR class=forumlight>
+          <TD>numeric</TD>
+          <TD>integral or floating-point constants written in scientific 
+            notation</TD>
+          <TD>1 -2.5e3</TD></TR>
+        <TR class=forumdark>
+          <TD>string</TD>
+          <TD>double-quote delimited string of characters</TD>
+          <TD>"hello world"</TD></TR>
+        <TR class=forumlight>
+          <TD>vector</TD>
+          <TD>three numeric values, surrounded by parentheses and separated by 
+            commas</TD>
+          <TD>(1, 2, 3)</TD></TR>
+        <TR class=forumdark>
+          <TD>struct</TD>
+          <TD>curly brace delimited list of name:value pairs</TD>
+          <TD><I>see below</I></TD></TR></TBODY></TABLE>
+      <P>Note that string values may be written without double quotes IF the 
+      string contains only letters, numbers, and underscores. Strings, quoted or 
+      otherwise, may not contain newlines or carriage returns. Adjacent quoted 
+      strings are automatically concatenated. This allows you to create large 
+      strings without using long unreadable lines of text: </P><PRE>   "This is all just "
+   "one big old string."
+</PRE>
+      <P>Complex data types are represented in def files by <B>structures</B>. A 
+      structure is a curly-brace delimited list of name:value pairs that is 
+      treated as a single value. Within a structure, the name:value pairs must 
+      be separated by commas. A single trailing comma is permitted after the 
+      last name:value pair in a structure, and is ignored. Since structures 
+      contain name:value pairs, they can be nested (although this is not used 
+      very often). </P>
+      <P>Starshatter def files may include C++ style <B>comments</B>. Comments 
+      either begin with two slashes "//" and extend to the end of line, or they 
+      begin with "/*" and extend to the next occurrance of "*/". </P>
+      <P>EXAMPLES:</P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>SHIP /* File Type ID */
+
+name:       Orion             // unquoted string
+
+detail_0:   "model.mag"       // quoted string because of dot
+feature_0:  1000              // integral numeric
+
+mass:       517e3             // scientific notation
+drag:       1.0e-7
+
+chase:      (0, -1800, 170)   // vector
+bridge:     (0,   600, 100)
+
+power:      {                 // structure
+   type:        Fusion,
+   design:      "Fusion Reactor",
+   max_output:  90e3,
+
+   loc:         (0, -48, -180),
+   size:        48,
+   hull_factor: 0.3,
+   explosion:   7
+}
+</PRE></TD></TR></TBODY></TABLE></SPAN></TD>
+    <TD width=20>&nbsp;</TD></TR></TBODY>
+
+
+<TR><TD class="sixsix" align="center" valign="bottom" colspan="7">
+<font>
+<?PHP include("../scripts/executetime2.php");?>
+</font>
+</TD></TR>
+</table>
+<script src="../scripts/contact-copyright-secure.js"></script>
+
+</body>
+</HTML>

@@ -1,0 +1,65 @@
+login:asdf
+password:asdf
+irl:asd
+registered:01.29.03
+posts:4
+email:asd@asd.com
+homepage:asd.com
+occupation:asd
+location:asd
+interests:asd
+icq:
+sig:asd
+###
+login:Pheagey
+password:celcer07
+irl:Pheagey
+registered:01.29.03
+posts:8
+email:p_grean@hotmail.com
+homepage:Http://ssd.servehttp.com/
+occupation:working, college, computers
+location:Mid.-Fl.,USA
+interests:anarchy, wicca, computers
+icq:
+sig:Ipicked up a Magic 8 ball and it said "Outlook not so good." I said "Yea, I know, but Microsoft ships it anyways."
+###
+login:Lord Darkstar
+password:cimerii
+irl:Cladara Corodius
+registered:02.05.03
+posts:7
+email:corodius@softhome.net
+homepage:
+occupation:SS Modder
+location:Thyrion
+interests:Modding in general basically
+icq:
+sig:
+###
+login:Matti Kuokkanen
+password:246066344
+irl:
+registered:04.30.03
+posts:0
+email:matti_kuokkanen@yahoo.co.uk
+homepage:
+occupation:
+location:
+interests:
+icq:
+sig:
+###
+login:cybersleuth58
+password:pumpkin
+irl:Sue Donovan
+registered:06.13.03
+posts:1
+email:dono2642@worldpath.net
+homepage:
+occupation:Disabled Attorney
+location:New England
+interests:Dogs, SciFi, games, dogs
+icq:
+sig:
+###

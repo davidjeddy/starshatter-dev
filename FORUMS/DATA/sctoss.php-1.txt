@@ -1,0 +1,24 @@
+author:Pheagey
+timestamp:1044504306
+icon:post
+subject:1st post on the SCtoSS forum
+message:Yo 1st post<br><br>Ipicked up a Magic 8 ball and it said "Outlook not so good." I said "Yea, I know, but Microsoft ships it anyways."
+###
+author:Corodius
+timestamp:1044506755
+icon:post
+subject:RE: 1st post on the SCtoSS forum
+message:cool, looks like it works<br><br>
+###
+author:Pheagey
+timestamp:1044551977
+icon:question
+subject:Members Area
+message:Have you signed up for the members area?<br><br>Ipicked up a Magic 8 ball and it said "Outlook not so good." I said "Yea, I know, but Microsoft ships it anyways."
+###
+author:Lord Darkstar
+timestamp:1044581028
+icon:post
+subject:RE: Members Area
+message:not yet, will soon<br><br>
+###

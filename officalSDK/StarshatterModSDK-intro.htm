@@ -1,0 +1,206 @@
+<html>
+<HEAD>
+<?PHP include('../scripts/executetime.php'); ?>
+<title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
+<meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
+<meta name="author" content="Pheagey Grean">
+<meta name="keywords" content="Starshatter, MODs, MOD, def files, meshs, 3D meshs, SS">
+<meta name="description" content="A leading sourch for Stashatter MOD info.">
+<meta name="reply-to" content="p_grean@hotmail.com">
+<meta http-equiv="expires" content="30">
+
+<STYLE>
+IMG {behavior:url("../scripts/pngbehavior.htc");}
+</STYLE>
+<LINK title="main" href="../css/main.css" type="text/css" rel="stylesheet">
+<LINK title="windef" href="../css/windef.css" type="text/css" rel="alternate stylesheet">
+<LINK title="aqublu" href="../css/aqublu.css" type="text/css" rel="alternate stylesheet">
+<STYLE>
+A:link {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.mega {
+	FONT-WEIGHT: bold; FONT-SIZE: 24pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tinyhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinylink {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.desc {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacklink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.biglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacktext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bigtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.attrib {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; BACKGROUND: #151d28; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whitelink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.vislink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+.gameheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND: #091826; TEXT-TRANSFORM: uppercase; COLOR: #ffffa0; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgreeting {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.examplelight {
+	BACKGROUND: #091826; COLOR: white
+}
+.forumborders {
+	BACKGROUND: #294e80
+}
+.forumtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumlight {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #091826; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumdark {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #050d14; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #000000; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgray {
+	COLOR: #396eb3
+}
+.forumedit {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+</STYLE>
+<!--used to change css's-->
+<SCRIPT src="../scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT language="JavaScript">
+icon_image = new Image();
+icon_image.src="Http://ssd.servehttp.com/ssd/ssd.ico";
+</SCRIPT>
+<LINK REL="SHORTCUT ICON" HREF="Http://ssd.servehttp.com/ssd/ssd.ico" >
+<SCRIPT LANGUAGE=javascript src="../scripts/lines-secure.js"></SCRIPT>
+</HEAD>
+<body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
+<!--used to show the menu-->
+<SCRIPT language=JavaScript src="../scripts/menu_array.js"type="text/javascript"></SCRIPT>
+
+<script src="../scripts/titlelines-secure.js"></script>
+<script src="../scripts/menu-secure.js"></script>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD width=400><A href="http://starshatter.com/index.htm"><IMG height=82 
+      src="StarshatterModSDK_files/banner400.jpg" width=400 border=0></A> </TD>
+    <TD width=380><A href="http://starshatter.com/gameabout.htm"><SPAN 
+      class=tinylink>GAME INFO</SPAN></A> · <A 
+      href="http://starshatter.com/background.htm"><SPAN 
+      class=tinylink>BACKGROUND</SPAN></A> · <A 
+      href="http://starshatter.com/screenshots.htm"><SPAN 
+      class=tinylink>SCREENSHOTS</SPAN></A> · <BR><A 
+      href="http://starshatter.com/downloads.htm"><SPAN 
+      class=tinylink>DOWNLOADS</SPAN></A> · <A 
+      href="http://starshatter.com/forum/main.php"><SPAN 
+      class=tinylink>FORUMS</SPAN></A> · <A 
+      href="http://starshatter.com/modsdk.htm"><SPAN class=tinylink>MOD 
+      SDK</SPAN></A> </TD></TR></TBODY></TABLE>
+<TABLE>
+  <TBODY>
+  <TR vAlign=top>
+    <TD width=20>&nbsp;</TD>
+    <TD class=tinylink width=150>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Mod SDK</TD></TR></TBODY></TABLE><BR><BR>
+		  <A href="StarshatterModSDK-intro.htm"><SPAN class=tinylink>INTRO</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-def.htm"><SPAN class=tinylink>DEF FILES</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-ship.htm"><SPAN class=tinylink>SHIP DESIGN</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-weapon.htm"><SPAN class=tinylink>WEAPON DESIGN</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-mission.htm"><SPAN class=tinylink>CUSTOM MISSIONS</SPAN></A><BR><BR></TD>
+    <TD width=560>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Modding Starshatter</TD></TR></TBODY></TABLE><SPAN class=desc>
+      <P><B>Starshatter</B> is a space-sim modder's dream platform. Because 
+      Starshatter was designed from the ground up to support so many different 
+      play styles - from space fighter combat to airborne strikes to starship 
+      battles to fleet tactical encounters - you can use it to create mods for 
+      just about any popular science fiction universe you can think of. Creating 
+      a new mod can be as simple as importing some new ship models, editing a 
+      few text files that define ship and mission parameters, and running the 
+      game. Starshatter includes a "Custom Mission" selection screen that allows 
+      the end user to play any mod that is installed in the game directory.</P>
+      <P>Starshatter is still in development. At the moment, mod support is 
+      limited to creating new ship designs, new weapons effects, and new custom 
+      missions. When the game is complete, you will be able to create Total 
+      Conversion packages that replace the GUI art, fonts, HUD, and campaign 
+      data with custom content.</P>
+      <P>To get started on a mod now, download Starshatter and the Magic 
+      modeling tool from the <A 
+      href="http://starshatter.com/downloads.htm"><SPAN class=tinylink>DOWNLOADS 
+      PAGE</SPAN></A> of the official website. Then create the following 
+      directories in the game install directory:</P>
+      <UL>
+        <LI>Mods 
+        <LI>Mods\Missions 
+        <LI>Mods\Ships 
+        <LI>Mods\Weapons <I>(optional)</I> </LI></UL></SPAN></TD>
+    <TD width=20>&nbsp;</TD></TR></TBODY>
+
+<TR><TD class="sixsix" align="center" valign="bottom" colspan="7">
+<font>
+<?PHP include("../scripts/executetime2.php");?>
+</font>
+</TD></TR>
+</table>
+<script src="../scripts/contact-copyright-secure.js"></script>
+
+</body>
+</HTML>

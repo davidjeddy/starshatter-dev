@@ -1,0 +1,32 @@
+index:1
+author:Pheagey
+created:02.05.03
+timestamp:1044581028
+icon:post
+posts:4
+subject:1st post on the SCtoSS forum
+###
+index:2
+author:Pheagey
+created:02.14.03
+timestamp:1045625392
+icon:question
+posts:2
+subject:What ship next
+###
+index:3
+author:Lord Darkstar
+created:02.25.03
+timestamp:1046249544
+icon:post
+posts:4
+subject:BC
+###
+index:4
+author:Pheagey
+created:03.19.03
+timestamp:1056614882
+icon:post
+posts:4
+subject:Lordy lordy...
+###

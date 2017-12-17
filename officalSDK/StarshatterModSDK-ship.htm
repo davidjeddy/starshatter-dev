@@ -1,0 +1,728 @@
+<html>
+<HEAD>
+<?PHP include('../scripts/executetime.php'); ?>
+<title>Starshatter Dev. - the place to find stuff you won't find anywhere else.</title>
+<meta http-equiv="Content-Type" content="text/HTML; charset=iso-8859-1">
+<meta name="author" content="Pheagey Grean">
+<meta name="keywords" content="Starshatter, MODs, MOD, def files, meshs, 3D meshs, SS">
+<meta name="description" content="A leading sourch for Stashatter MOD info.">
+<meta name="reply-to" content="p_grean@hotmail.com">
+<meta http-equiv="expires" content="30">
+
+<STYLE>
+IMG {behavior:url("../scripts/pngbehavior.htc");}
+</STYLE>
+<LINK title="main" href="../css/main.css" type="text/css" rel="stylesheet">
+<LINK title="windef" href="../css/windef.css" type="text/css" rel="alternate stylesheet">
+<LINK title="aqublu" href="../css/aqublu.css" type="text/css" rel="alternate stylesheet">
+<STYLE>
+A:link {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.mega {
+	FONT-WEIGHT: bold; FONT-SIZE: 24pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tinyhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinylink {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.desc {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacklink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.biglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tinytext {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blacktext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.boldtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bigtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.attrib {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; BACKGROUND: #151d28; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.whitelink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.vislink {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: LucidaConsole, monospace
+}
+.gameheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; BACKGROUND: #091826; TEXT-TRANSFORM: uppercase; COLOR: #ffffa0; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgreeting {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.examplelight {
+	BACKGROUND: #091826; COLOR: white
+}
+.forumborders {
+	BACKGROUND: #294e80
+}
+.forumtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #122e49; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumlight {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #091826; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumdark {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #050d14; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #000000; COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.forumgray {
+	COLOR: #396eb3
+}
+.forumedit {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: #ffff80; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+</STYLE>
+<!--used to change css's-->
+<SCRIPT src="../scripts/styleswitcher.js" type="text/javascript"></SCRIPT>
+<SCRIPT language="JavaScript">
+icon_image = new Image();
+icon_image.src="Http://ssd.servehttp.com/ssd/ssd.ico";
+</SCRIPT>
+<LINK REL="SHORTCUT ICON" HREF="Http://ssd.servehttp.com/ssd/ssd.ico" >
+<SCRIPT LANGUAGE=javascript src="../scripts/lines-secure.js"></SCRIPT>
+</HEAD>
+<body onResize="resizeBars();" onLoad="resizeBars(); setEvents(); checkOpera();"  bottommargin="0" marginheight="0" marginwidth="0" rightmargin="0" scroll="yes" topmargin="0" leftmargin="0">
+<!--used to show the menu-->
+<SCRIPT language=JavaScript src="../scripts/menu_array.js"type="text/javascript"></SCRIPT>
+
+<script src="../scripts/titlelines-secure.js"></script>
+<script src="../scripts/menu-secure.js"></script>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD width=400><A href="http://starshatter.com/index.htm"><IMG height=82 
+      src="StarshatterModSDK_files/banner400.jpg" width=400 border=0></A> </TD>
+    <TD width=380><A href="http://starshatter.com/gameabout.htm"><SPAN 
+      class=tinylink>GAME INFO</SPAN></A> · <A 
+      href="http://starshatter.com/background.htm"><SPAN 
+      class=tinylink>BACKGROUND</SPAN></A> · <A 
+      href="http://starshatter.com/screenshots.htm"><SPAN 
+      class=tinylink>SCREENSHOTS</SPAN></A> · <BR><A 
+      href="http://starshatter.com/downloads.htm"><SPAN 
+      class=tinylink>DOWNLOADS</SPAN></A> · <A 
+      href="http://starshatter.com/forum/main.php"><SPAN 
+      class=tinylink>FORUMS</SPAN></A> · <A 
+      href="http://starshatter.com/modsdk.htm"><SPAN class=tinylink>MOD 
+      SDK</SPAN></A> </TD></TR></TBODY></TABLE>
+<TABLE>
+  <TBODY>
+  <TR vAlign=top>
+    <TD width=20>&nbsp;</TD>
+    <TD class=tinylink width=150>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Mod SDK</TD></TR></TBODY></TABLE><BR><BR>
+		  <A href="StarshatterModSDK-intro.htm"><SPAN class=tinylink>INTRO</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-def.htm"><SPAN class=tinylink>DEF FILES</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-ship.htm"><SPAN class=tinylink>SHIP DESIGN</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-weapon.htm"><SPAN class=tinylink>WEAPON DESIGN</SPAN></A><BR><BR>
+	  <A href="StarshatterModSDK-mission.htm"><SPAN class=tinylink>CUSTOM MISSIONS</SPAN></A><BR><BR></TD>
+    <TD width=560>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD>&nbsp;Ship Design</TD></TR></TBODY></TABLE><SPAN 
+      class=bigtext><BR>Basics<BR></SPAN><SPAN class=desc>
+      <P>All of the files that make up a custom ship design must be placed in a 
+      subdirectory of the Mods\Ships directory that bears the name of the ship 
+      design. For example, to create a new destroyer class of starships called 
+      the "Warrior", start by creating a directory named 
+      <CODE><B>Mods\Ships\Warrior</B></CODE>. All models, texture bitmaps, and 
+      other data files for the Warrior must be placed in this directory. </P>
+      <P>The properties for your ship design are defined in a text file called a 
+      "Ship Definition File". This file can be created with any text editor 
+      (e.g. notepad) and <B>must</B> have the same name as the ship design. For 
+      our Warrior example, the ship definition file would be 
+      <CODE><B>Mods\Ships\Warrior\Warrior.def</B></CODE>. The ship definition 
+      file contains all of the physical properties of the ship (mass, hull 
+      strength, turn rate, lift, drag, etc.) and also names the 3D mesh files 
+      that define what the ship looks like. </P>
+      <P>All physical objects in Starshatter are modeled using 3D mesh files 
+      created by the low-poly editor Magic, written especially for the game. 
+      Magic stores meshes in files with <CODE>.mag</CODE> extensions. You can 
+      use Magic to create ship designs from scratch, or you can import existing 
+      designs created in another 3D modeling tool (3DStudio, LightWave, Maya, 
+      Milkshape). Magic uses the popular Wavefront OBJ ASCII format for 
+      importing geometry from 3rd party modeling tools. You can download a free, 
+      unsupported copy of Magic 1.1 from the <A 
+      href="http://starshatter.com/downloads.htm"><SPAN class=vislink>Downloads 
+      Page</SPAN></A> of the official website. </P>
+      <P>Texture maps for your ship design must be stored in PCX format. 
+      Textures must be square powers of two (e.g. 64x64 or 256x56) in size. You 
+      should store your textures in 24 bit RGB format. You can use Adobe 
+      Photoshop, JASC Paint Shop Pro, or any other bitmap graphics editor to 
+      create textures for your models. </P></SPAN><SPAN class=bigtext><BR>Ship 
+      Definition File<BR></SPAN><SPAN class=desc>
+      <P>The ship definition file is a text file that has a <CODE>.def</CODE> 
+      extension. All definition files in Starshatter use the same <A 
+      href="http://starshatter.com/moddef.htm"><SPAN class=vislink>C-like 
+      syntax</SPAN></A>. The ship definition file defines the logical, 
+      graphical, physical, and functional properties of a class of ships. 
+      </P></SPAN><SPAN class=bigtext><BR>Logical Properties<BR></SPAN><SPAN 
+      class=desc>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>name</TD>
+          <TD>The name of the ship design. This is the same name as the 
+            directory in which this file is stored.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>display_name</TD>
+          <TD>The name of the ship design as it should be displayed on the HUD 
+            in the game itself. This parameter is optional. If no display_name 
+            is specified, the design name will be used.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>abrv</TD>
+          <TD>The name of the ship type abbreviation as it should be displayed 
+            on the HUD in the game itself (e.g. "F-15E"). This parameter is 
+            optional. If no abrv is specified, no abbreviation will be 
+        used.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>class</TD>
+          <TD>The displacement class of the ship. See below for a list of 
+            valid class names.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>map</TD>
+          <TD>A structure containing a list of sprite file names to be used in 
+            rendering this ship design in the navigation map.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>beauty</TD>
+          <TD>The name of the beauty shot bitmap file for this ship. This 
+            image is used to represent the ship in pre-mission briefing screens. 
+            If this attribute is not specified, the default is 
+        "beauty.pcx".</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>hud_icon</TD>
+          <TD>The name of the HUD icon bitmap file for this ship. This image 
+            is used to represent damage to the ship at the bottom of the HUD. If 
+            this attribute is not specified, the default is 
+        "hud_icon.pcx".</TD></TR></TBODY></TABLE>
+      <P>EXAMPLES:</P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>name:         Orion
+display_name: Orion
+class:        carrier
+beauty:       "beauty.pcx"
+hud_icon:     "hud_icon.pcx"
+
+map: {
+   sprite: "map0.pcx",  //  9 oclock
+   sprite: "map1.pcx",  // 10 oclock
+   sprite: "map2.pcx",  // 12 oclock
+   sprite: "map3.pcx",  //  2 oclock
+   sprite: "map4.pcx",  //  3 oclock
+   sprite: "map5.pcx",  //  4 oclock
+   sprite: "map6.pcx",  //  6 oclock
+   sprite: "map7.pcx"   //  8 oclock
+}
+</PRE></TD></TR></TBODY></TABLE>
+      <P>VALID SHIP CLASSES</P>Fighters and Shuttles: 
+      <UL>
+        <LI>Fighter 
+        <LI>Attack 
+        <LI>LCA </LI></UL>Starships: 
+      <UL>
+        <LI>Freighter 
+        <LI>Frigate 
+        <LI>Destroyer 
+        <LI>Cruiser 
+        <LI>Carrier </LI></UL>Space Stations: 
+      <UL>
+        <LI>Station </LI></UL>Ground Units: 
+      <UL>
+        <LI>Building 
+        <LI>Factory 
+        <LI>SAM 
+        <LI>EWR 
+        <LI>C3I 
+        <LI>Starbase </LI></UL></SPAN><SPAN class=bigtext><BR>Graphical 
+      Properties<BR></SPAN><SPAN class=desc>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>model</TD>
+          <TD>The name of the 3D low-poly mesh file for a single level of 
+            detail ship.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>detail_<I>n</I></TD>
+          <TD>The name of the 3D low-poly mesh file for one level of detail in 
+            a multi-LOD ship. The <I>n</I> can be 0, 1, 2, or 3 from lowest 
+            detail to highest detail.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>feature_<I>n</I></TD>
+          <TD>The characteristic feature size in model units for one level of 
+            detail in a multi-LOD ship. The <I>n</I> can be 0, 1, 2, or 3 from 
+            lowest detail to highest detail.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>spin</TD>
+          <TD>The 3D rate of spin in radians per second for one mesh component 
+            file. There must be exactly as many <B>spin</B> attributes as there 
+            are models per level of detail. For example, if a ship has three 
+            levels of detail, and each level has two meshes (one spinning one 
+            stationary) then there must be exactly two <B>spin</B> attributes in 
+            the definition.</TD></TR></TBODY></TABLE>
+      <P>EXAMPLES:</P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>// TWO LOD MESHES:
+
+detail_0:   "lo-detail.mag"
+feature_0:  0.1
+detail_1:   "hi-detail.mag"
+feature_1:  0.4</PRE></TD></TR></TBODY></TABLE><BR>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>// ONE STATIONARY AND TWO ROTATING SECTIONS, ONE LOD:
+
+model:      "s2.mag"
+model:      "s2mid.mag"
+model:      "s2end.mag"
+
+spin:       (0.0, 0.00, 0.0)
+spin:       (0.0,-0.10, 0.0)
+spin:       (0.0, 0.07, 0.0)</PRE></TD></TR></TBODY></TABLE></SPAN><SPAN 
+      class=bigtext><BR>Physical Properties<BR></SPAN><SPAN class=desc>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>mass</TD>
+          <TD>The mass of the ship in metric tonnes.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>integrity</TD>
+          <TD>Hull strength in "hit points". If the integrity of the ship 
+            reaches zero, the ship is destroyed.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>agility</TD>
+          <TD>A general rating of the ship's ability to turn. Smaller numbers 
+            mean the ship turns more slowly, larger numbers mean that it turns 
+            more rapidly.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>vlimit</TD>
+          <TD>The exhaust velocity of the main drive in meters per second. 
+            Beyond this velocity, the ship will accelerate much more 
+        slowly.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>roll_rate</TD>
+          <TD>Similar to agility, but just sets the rate at which the ship 
+            rolls about its long axis.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>scale</TD>
+          <TD>A number used to multiply the vertex coordinates in the mesh 
+            when rendering the ship in the game engine.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>acs</TD>
+          <TD>Active Sensor Cross-section. A number that indicates how visible 
+            this ship is to active sensors. Similar to radar cross section in 
+            the real world.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>trans_x</TD>
+          <TD>Strength of the lateral (side-to-side) thrusters. Helps control 
+            how rapidly the ship can turn.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>trans_y</TD>
+          <TD>Strength of the longitudinal (foreward/aft) thrusters. Helps 
+            control how rapidly the ship can slow down.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>trans_z</TD>
+          <TD>Strength of the spinal/ventral (top/bottom) thrusters. Helps 
+            control how rapidly the ship can turn.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>roll_drag</TD>
+          <TD>How quickly the ship stops rolling after you let go of the 
+          stick.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>pitch_drag</TD>
+          <TD>How quickly the ship stops pitching after you let go of the 
+            stick.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>yaw_drag</TD>
+          <TD>How quickly the ship stops turning (yawing) after you let go of 
+            the stick.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>drag</TD>
+          <TD>Body drag coefficient. Used to calculate drag in flight regimes 
+            that have drag (e.g. atmosphere, arcade space mode).</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>CL</TD>
+          <TD>Coefficient of Lift. Realistic flight model, atmospheric 
+        only.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>CD</TD>
+          <TD>Coefficient of Drag (Wings). Realistic flight model, atmospheric 
+            only.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>stall</TD>
+          <TD>Stall onset angle of attack (radians). Realistic flight model, 
+            atmospheric only.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>bridge</TD>
+          <TD>Vector location of bridge camera (F1 View) in model 
+          coordinates.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>chase</TD>
+          <TD>Vector location of chase camera (F2 View) in model 
+          coordinates.</TD></TR></TBODY></TABLE>
+      <P>EXAMPLES:</P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>mass:       517e3
+agility:    2
+vlimit:     220
+roll_rate:  7
+integrity:  75e3
+scale:      5
+acs:        1.5
+
+trans_x:    1e6
+trans_y:    5e5
+trans_z:    1e6
+
+drag:       1e-7
+roll_drag:  1.2
+pitch_drag: 1.2
+yaw_drag:   1.2
+
+chase:      (0, -1800, 170)
+bridge:     (0,   600, 100)
+</PRE></TD></TR></TBODY></TABLE></SPAN><SPAN class=bigtext><BR>Ship 
+      Systems<BR></SPAN><SPAN class=desc>
+      <P>So far, we've only been looking at properties that affect the ship as a 
+      whole. Much of the customization possible for a ship design comes in the 
+      form of the dozen or more <B>systems</B> that give the ship its 
+      specialized abilities. Each ship system is defined by a structure in the 
+      ship definition file. All of the system structures have a few properties 
+      in common, but they each have custom attributes as well. </P>
+      <P>COMMON SYSTEM PROPERTIES</P>
+      <TABLE class=desc cellSpacing=2 cellPadding=4 width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD class=attrib>name</TD>
+          <TD>The name of the system, used in the engineering screen.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>abrv</TD>
+          <TD>The abbreviation of the system, used in the master caution 
+          panel.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>design</TD>
+          <TD>The name of the system design for this system. Starshatter 
+            includes a catalog of standard system designs that are made up of 
+            damageable/repairable components.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>loc</TD>
+          <TD>A vector providing the location of the system in model units. 
+            This is used for system-specific damage modeling to determine if the 
+            system was hit by incoming weapons fire.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>size</TD>
+          <TD>The radius of the system in model units. This is used for 
+            system-specific damage modeling to determine if the system was in 
+            range of the damage from incoming weapons fire.</TD></TR>
+        <TR vAlign=top>
+          <TD class=attrib>hull_factor</TD>
+          <TD>A number from 0.0 to 1.0 that identifies well protected this 
+            system is by the ship's hull armor. 0 means the system is completely 
+            exposed, 1 means that all damage will be absorbed by the hull 
+            plating.</TD></TR></TBODY></TABLE>
+      <P>Each system structure is introduced by a specific attribute name that 
+      identifies the type of system being declared. For example, reactors are 
+      declared with the name "power", like this: <CODE>power: { /* reactor 
+      attributes */ }</CODE>. The following system types are supported. </P>
+      <P>SYSTEM TYPES: <SPAN class=tinytext>Click each name for more 
+      info</SPAN></P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=2 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD width="20%">&nbsp;Name</TD>
+          <TD>&nbsp;Description</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_power.htm',%20'power')"><SPAN 
+            class=whitelink>power</SPAN></A></TD>
+          <TD>Power supplies, reactors, and batteries.</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_drive.htm',%20'drive')"><SPAN 
+            class=whitelink>drive</SPAN></A></TD>
+          <TD>Main fusion or plasma conventional (slower-than-light) 
+        drive.</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_thruster.htm',%20'thruster')"><SPAN 
+            class=whitelink>thruster</SPAN></A></TD>
+          <TD>Small turning and translation thrusters.</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_quantum.htm',%20'quantum')"><SPAN 
+            class=whitelink>quantum</SPAN></A></TD>
+          <TD>Faster-than-light quantum jump drive. (Starships Only!)</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_shield.htm',%20'shield')"><SPAN 
+            class=whitelink>shield</SPAN></A></TD>
+          <TD>Gravitational bias deflector shield. (Starships Only!)</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_weapon.htm',%20'weapon')"><SPAN 
+            class=whitelink>weapon</SPAN></A></TD>
+          <TD>Primary (energy beam) or secondary (missile) weapons.</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_flightdeck.htm',%20'flightdeck')"><SPAN 
+            class=whitelink>flightdeck</SPAN></A></TD>
+          <TD>Launch or recover deck for fighters (Carriers Only!)</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_sensor.htm',%20'sensor')"><SPAN 
+            class=whitelink>sensor</SPAN></A></TD>
+          <TD>Combined passive/active sensor arrays.</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_weapon.htm',%20'weapon')"><SPAN 
+            class=whitelink>probe</SPAN></A></TD>
+          <TD>Sensor probe launcher.</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_weapon.htm',%20'weapon')"><SPAN 
+            class=whitelink>decoy</SPAN></A></TD>
+          <TD>Missile countermeasure decoy.</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_gear.htm',%20'gear')"><SPAN 
+            class=whitelink>gear</SPAN></A></TD>
+          <TD>Fighter or shuttle landing gear.</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_nav.htm',%20'nav')"><SPAN 
+            class=whitelink>nav</SPAN></A></TD>
+          <TD>Auto navigation system.</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_navlight.htm',%20'navlight')"><SPAN 
+            class=whitelink>navlight</SPAN></A></TD>
+          <TD>Flashing navigation lights.</TD></TR>
+        <TR class=forumlight>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_computer.htm',%20'computer')"><SPAN 
+            class=whitelink>computer</SPAN></A></TD>
+          <TD>Various avionics and computer systems.</TD></TR></TBODY></TABLE>
+      <P>The order that systems are listed in the ship definition file is 
+      significant. Each system must draw power from a reactor in order to 
+      operate (except for power sources themselves!). Each system is 
+      automatically attached to the power source that was most recently declared 
+      in the definition file. For example: </P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>power: {
+   type:    Fusion,
+   design:  "Fusion Reactor",
+   // ...
+}
+
+drive: {
+   type:    Plasma,
+   name:    "Plasma Drive",
+   // ...
+}
+
+power: {
+   type:    "Auxilliary Reactor",
+   design:  "Auxilliary Reactor",
+   // ...
+}
+
+shield: {
+   type:    2,
+   design:  "Grav Shield",
+   // ...
+}
+</PRE></TD></TR></TBODY></TABLE>
+      <P>In the above listing, the plasma drive will draw power from the main 
+      reactor, and the shield will be attached to the auxilliary reactor. 
+      Starship captains can adjust power distribution and connection during the 
+      game through the engineering screen. For example, a starship captain could 
+      easily move the shield system from the aux reactor to the main fusion 
+      reactor to help balance the load. However, fighter pilots do not have 
+      access to the engineering screen, so fighter power routing is fixed at 
+      design time. </P></SPAN><SPAN class=bigtext><BR>Weapons Hardpoints and 
+      Loadouts<BR></SPAN><SPAN class=desc>
+      <P>Starships are generally designed with fixed weapons systems. If the 
+      ship definition file declares that a particular type of destroyer has two 
+      x-ray laser mounts, and one torpedo launcher, all ships of that type will 
+      always have those weapons. </P>
+      <P>Fighters, on the other hand, usually have underwing weapons hardpoints 
+      that can carry a variety of different weapon types. You can configure each 
+      fighter to carry an appropriate set of weapons each time one takes off 
+      during the game. In order to do this, fighter ship designs use two 
+      additional structures: </P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=2 width="100%">
+        <TBODY>
+        <TR class=gameheader height=24>
+          <TD width="20%">&nbsp;Name</TD>
+          <TD>&nbsp;Description</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_hardpoint.htm',%20'hardpoint')"><SPAN 
+            class=whitelink>hardpoint</SPAN></A></TD>
+          <TD>A system that can mount several different weapon types.</TD></TR>
+        <TR class=forumdark>
+          <TD>&nbsp;<A 
+            href="javascript:popinfo('modship_loadout.htm',%20'loadout')"><SPAN 
+            class=whitelink>loadout</SPAN></A></TD>
+          <TD>A pre-defined list of weapons to be mounted.</TD></TR></TBODY></TABLE>
+      <P></P></SPAN><SPAN class=bigtext><BR>Death Spiral 
+      Properties<BR></SPAN><SPAN class=desc>
+      <P>All good things must come to an end, preferably in a suitably noisy and 
+      colorful series of fireballs! </P>
+      <TABLE class=forumborders cellSpacing=2 cellPadding=8 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=examplelight><PRE>death_spiral: {
+   time:             5,
+
+   explosion_type:   10,   // SMALL_EXPLOSION
+   explosion_time:   2,
+   explosion_loc:    (-50, 50, 0),
+
+   explosion_type:   10,   // SMALL_EXPLOSION
+   explosion_time:   1,
+   explosion_loc:    (60, 40, 190),
+
+   explosion_type:   10,   // SMALL_EXPLOSION
+   explosion_time:   0.5,
+   explosion_loc:    (0, -48, -180),
+
+   explosion_type:   20,   // LARGE_BURST (custom)
+   explosion_time:   0.1,
+   explosion_loc:    (0, -48, -180),
+
+   explosion_type:   10,   // SMALL_EXPLOSION
+   explosion_time:   0.3,
+   explosion_loc:    (20, 80, -190),
+
+   explosion_type:   20,   // LARGE_BURST (custom)
+   explosion_time:   0.1,
+   explosion_loc:    (20, 80, -190),
+
+   final_type:       13,   // LARGE_EXPLOSION
+   final_loc:        (0, 0, 120),
+
+   final_type:       13,   // NUKE_EXPLOSION
+   final_loc:        (0, 0, -120),
+
+   final_type:       12,   // LARGE_BURST
+   final_loc:        (0, 0, 0),
+
+   debris:           "Debris1.mag",
+   debris_loc:       (0,0,350),
+   debris_mass:      100e3,
+   debris_count:     1,
+   debris_life:      600,
+   debris_fire:      (-100,0,0),
+   debris_fire:      (-35,20,-80),
+
+   debris:           "Debris2.mag",
+   debris_loc:       (-200,20,-300),
+   debris_mass:      100e3,
+   debris_count:     1,
+   debris_life:      500,
+   debris_fire:      (64,0,120),
+   debris_fire:      (85,20,0),
+   debris_fire:      (65,-10,-60),
+
+   debris:           "Debris3.mag",
+   debris_loc:       (300,0,-320),
+   debris_mass:      100e3,
+   debris_count:     1,
+   debris_life:      400,
+
+   debris:           "Debris5.mag",
+   debris_loc:       (0,20,0),
+   debris_mass:      1,
+   debris_count:     12,
+   debris_life:      25,
+
+   debris:           "Debris7.mag",
+   debris_loc:       (10,0,0),
+   debris_mass:      1,
+   debris_count:     7,
+   debris_life:      15,
+}
+</PRE></TD></TR></TBODY></TABLE><SPAN 
+      class=bigtext><BR>Samples<BR></SPAN><SPAN class=desc>
+      <P>Here are links to two sample ship design def files. The first one is a 
+      fighter design, similar to the Stormhawk fighter from the game. The second 
+      one is a fleet carrier design, based on the Orion class carrier: 
+      </P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A 
+      href="http://starshatter.com/Fighter.def"><SPAN 
+      class=desc>Fighter.def</SPAN></A> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A 
+      href="http://starshatter.com/Carrier.def"><SPAN 
+      class=desc>Carrier.def</SPAN></A><BR><BR>
+      <P>You can use these samples as the basis for your own designs. Be sure to 
+      rename them to match your mod design names. And remember to save the files 
+      using a .def extension. </P></SPAN></SPAN></TD>
+    <TD width=20>&nbsp;</TD></TR></TBODY>
+
+
+<TR><TD class="sixsix" align="center" valign="bottom" colspan="7">
+<font>
+<?PHP include("../scripts/executetime2.php");?>
+</font>
+</TD></TR>
+</table>
+<script src="../scripts/contact-copyright-secure.js"></script>
+
+</body>
+</HTML>

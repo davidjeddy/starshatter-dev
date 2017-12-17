@@ -1,0 +1,124 @@
+/*main box border setup*/
+DIV.menuBar {
+	BORDER-TOP: #000000 1px outset;
+	PADDING-TOP: 1px;
+	BORDER-RIGHT: #000000 1px outset;
+	PADDING-RIGHT: 1px;
+	BORDER-BOTTOM: #000000 1px outset;
+	PADDING-BOTTOM: 1px;
+	BORDER-LEFT: #000000 1px outset;
+	PADDING-LEFT: 1px;
+	BACKGROUND-COLOR:#D6D3CE;;
+	TEXT-ALIGN: center;
+}
+/*Main Area (off)link & box*/
+DIV.menuBar A.menuButton {
+	POSITION: relative;
+	Z-INDEX: 100;
+	TOP: 0px;
+	LEFT: 0px;
+	width:100%;
+	BORDER-TOP: #ffffff 0px solid;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #ffffff 0px solid;
+	PADDING-RIGHT: 0px;
+	BORDER-BOTTOM: #ffffff 0px solid;
+	PADDING-BOTTOM: 0px;
+	BORDER-LEFT: #ffffff 0px solid;
+	PADDING-LEFT: 0px;
+	MARGIN: 0px;
+	BACKGROUND-COLOR: transparent;
+font:15px verdana;
+color:#000000;
+font-weight: bold;
+}
+DIV.menuBar A.menuButton:hover {
+	BORDER-TOP: #e0e0e0 0px outset;
+	BORDER-RIGHT: #e0e0e0 0px outset;
+	BORDER-BOTTOM: #e0e0e0 0px outset;
+	BORDER-LEFT: #e0e0e0 0px outset;
+	COLOR: #000000;
+	font:15px verdana;
+	text-decoration:none;
+	background-color:#B2B4BF;
+	font-weight: bold;;
+}
+DIV.menuBar A.menuButtonActive {
+	BORDER-TOP: #e0e0e0 0px inset;
+	BORDER-RIGHT: #e0e0e0 0px inset;
+	BORDER-BOTTOM: #e0e0e0 0px inset;
+	BORDER-LEFT: #e0e0e0 0px inset;
+	COLOR: #000000;
+	font:15px verdana;
+	text-decoration:none;
+	background-color:#B2B4BF;
+	font-weight: bold;;
+}
+DIV.menuBar A.menuButtonActive:hover {
+	BORDER-TOP: #e0e0e0 0px inset;
+	TOP: 1px;
+	BORDER-RIGHT: #e0e0e0 0px inset;
+	BORDER-BOTTOM: #e0e0e0 0px inset;
+	BORDER-LEFT: #e0e0e0 0px inset;
+	LEFT: 1px;
+	COLOR: #ffffff;
+	BACKGROUND-COLOR: #B2B4BF;
+}
+/*submenu stuf*/
+DIV.menu {
+	VISIBILITY: hidden;
+	Z-INDEX: 101;
+	POSITION: absolute;
+	BORDER-TOP: #e0e0e0 2px outset;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #e0e0e0 2px outset;
+	PADDING-RIGHT: 1px;
+	BORDER-BOTTOM: #e0e0e0 2px outset;
+	PADDING-BOTTOM: 1px;
+	BORDER-LEFT: #e0e0e0 2px outset;
+	PADDING-LEFT: 0px;
+	BACKGROUND-COLOR: #e0e0e0;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "MS Sans Serif", Arial, sans-serif;
+	cursor: hand;
+}
+DIV.menu A.menuItem {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "MS Sans Serif", Arial, sans-serif;
+	cursor: hand;
+}
+/*submenu padding*/
+DIV.menu A.menuItem {
+	CURSOR: default;
+	DISPLAY: block;
+	PADDING-TOP: 2px;
+	PADDING-RIGHT: 4px;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 4px;
+	COLOR: #000000;
+	WHITE-SPACE: nowrap;
+	TEXT-DECORATION: none;
+	cursor: hand;
+}
+DIV.menu A.menuItem:hover {
+	COLOR: #ffffff;
+	cursor: hand;
+}
+DIV.menu A.menuItemHighlight {
+	COLOR: #ffffff;
+	BACKGROUND-COLOR: #5050f0;
+	cursor: hand;
+}
+DIV.menu DIV.menuItemSep {
+	BORDER-TOP: #e0e0e0 1px inset;
+	BORDER-RIGHT: #e0e0e0 1px inset;
+	BORDER-BOTTOM: #e0e0e0 1px inset;
+	BORDER-LEFT: #e0e0e0 1px inset;
+	MARGIN: 0px 0px;
+}

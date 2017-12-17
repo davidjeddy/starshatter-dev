@@ -1,0 +1,12 @@
+author:Pheagey
+timestamp:1045266642
+icon:question
+subject:What ship next
+message:so after we get the BC fully working what do you think we should work on next?<br><br>Ipicked up a Magic 8 ball and it said "Outlook not so good." I said "Yea, I know, but Microsoft ships it anyways."
+###
+author:Lord Darkstar
+timestamp:1045625392
+icon:post
+subject:What ship next
+message:Personally I would like to see the wraith in after the battlecruiser, so we have a fighter to fly around with :) The wraith shouldnt be too hard, i wouldnt think.<br><br>
+###

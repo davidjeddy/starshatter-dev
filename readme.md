@@ -8,6 +8,7 @@ This site was put together around 2002 as a file repository for mods (modificati
 ```
 docker build -t ssd_v1 . --rm
 docker run -d -h localhost -p 80:80 --name ssd_v1_app -v "$PWD":/var/www/html ssd_v1:latest --rm
+docker logs -f ssd_v1_app
 ```
 
 # Warning:

@@ -92,7 +92,7 @@ Date Added: 8/25/2k2<br>
 $COUNT_FILE = "SCRIPTS/indexcounter/h-counter.txt";
 $IMG_DIR_URL = "SCRIPTS/indexcounter/digits/silver";
 $NB_DIGITS = 4;
-require('scripts/indexcounter/h-counter.php');
+require('SCRIPTS/indexcounter/h-counter.php');
 echo $HTML_result;
 ?><br><br>
 </font>

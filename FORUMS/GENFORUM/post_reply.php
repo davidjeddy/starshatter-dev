@@ -49,7 +49,7 @@
 <?php echo ($savedOK) ? "<a href=\"/forum\"><span class=\"whitelink\">Return to main forum</span></a><br>" : "$errormsg <br>" ?>
 </font></td></tr>
 
-<script src="../../scripts/contact-copyright-forum.js"></script>
+<script src="../../SCRIPTS/contact-copyright-forum.js"></script>
 
 
 </table>

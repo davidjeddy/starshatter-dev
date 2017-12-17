@@ -97,7 +97,7 @@ icon_image.src="ssd.ico";
 </font>
 </td></tr>
 </table>
-<script src="../../scripts/contact-copyright-forum.js"></script>
+<script src="../../SCRIPTS/contact-copyright-forum.js"></script>
 </div>
 </body>
 </html>

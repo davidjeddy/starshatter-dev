@@ -27,7 +27,7 @@
 </td></tr>
 
 
-<script src="../../scripts/contact-copyright-forum.js"></script>c
+<script src="../../SCRIPTS/contact-copyright-forum.js"></script>c
 </table>
 </div>
 </div>

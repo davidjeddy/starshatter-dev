@@ -22,7 +22,7 @@ $top
 
 	</td>
 </tr>
-<script src=\"../scripts/contact-copyright.js\"></script>
+<script src=\"../SCRIPTS/contact-copyright.js\"></script>
 </table>
 </div>
 </div>

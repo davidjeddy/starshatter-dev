@@ -88,7 +88,7 @@ Pages:&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
-<script src="../../scripts/contact-copyright-forum.js"></script>
+<script src="../../SCRIPTS/contact-copyright-forum.js"></script>
 </table>
 </div>
 </div>

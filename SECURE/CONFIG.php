@@ -17,26 +17,26 @@ $top="<html>
 <meta http-equiv=\"expires\" content=\"30\">
 
 <STYLE>
-IMG {behavior:url(\"../scripts/pngbehavior.htc\");}
+IMG {behavior:url(\"../SCRIPTS/pngbehavior.htc\");}
 </STYLE>
 <LINK title=\"main\" href=\"../css/main.css\" type=\"text/css\" rel=\"stylesheet\">
 <LINK title=\"windef\" href=\"../css/windef.css\" type=\"text/css\" rel=\"alternate stylesheet\">
 <LINK title=\"aqublu\" href=\"../css/aqublu.css\" type=\"text/css\" rel=\"alternate stylesheet\">
 <!--used to change css's-->
-<SCRIPT src=\"../scripts/styleswitcher.js\" type=\"text/javascript\"></SCRIPT>
+<SCRIPT src=\"../SCRIPTS/styleswitcher.js\" type=\"text/javascript\"></SCRIPT>
 <SCRIPT language=\"JavaScript\">
 icon_image = new Image();
 icon_image.src=\"ssd.ico\";
 </SCRIPT>
 <LINK REL=\"SHORTCUT ICON\" HREF=\"ssd.ico\" >
-<SCRIPT LANGUAGE=javascript src=\"../scripts/lines-secure.js\"></SCRIPT>
+<SCRIPT LANGUAGE=javascript src=\"../SCRIPTS/lines-secure.js\"></SCRIPT>
 </HEAD>
 <body onResize=\"resizeBars();\" onLoad=\"resizeBars(); setEvents(); checkOpera();\"  bottommargin=\"0\" marginheight=\"0\" marginwidth=\"0\" rightmargin=\"0\" scroll=\"yes\" topmargin=\"0\" leftmargin=\"0\">
 <!--used to show the menu-->
-<SCRIPT language=JavaScript src=\"../scripts/menu_array.js\"type=\"text/javascript\"></SCRIPT>
+<SCRIPT language=JavaScript src=\"../SCRIPTS/menu_array.js\"type=\"text/javascript\"></SCRIPT>
 
-<script src=\"../scripts/titlelines-secure.js\"></script>
-<script src=\"../scripts/menu-secure.js\"></script>
+<script src=\"../SCRIPTS/titlelines-secure.js\"></script>
+<script src=\"../SCRIPTS/menu-secure.js\"></script>
 <div class=\"bodytable\">
 <table width=\"775\" align=\"center\" cellpadding=\"7\" cellspacing=\"7\" border=\"0\" bordercolor=\"#0000ff\" >";
 
@@ -75,7 +75,7 @@ $bottom="
 </font>
 </TD></TR>-->
 </table>
-<script src=\"../scripts/contact-copyright-secure.js\"></script>??
+<script src=\"../SCRIPTS/contact-copyright-secure.js\"></script>??
 </div>
 </body>
 </HTML>

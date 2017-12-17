@@ -33,7 +33,7 @@
 <td colspan="4" width="80%" class="fourfour"><font class="words2"><?php echo $profile['msg'] ?></font></td></tr>
 
 
-<script src="../../scripts/contact-copyright-forum.js"></script>
+<script src="../../SCRIPTS/contact-copyright-forum.js"></script>
 </table>
 </div>
 </div>

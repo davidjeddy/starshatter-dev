@@ -4,3 +4,8 @@ ErrorDocument 401 /ssd/errordocs/basicerror.php
 ErrorDocument 403 /ssd/errordocs/basicerror.php
 ErrorDocument 404 /ssd/errordocs/basicerror.php
 ErrorDocument 500 /ssd/errordocs/basicerror.php
+
+<IfModule mod_speling.c>
+    CheckCaseOnly on
+    CheckSpelling on
+</IfModule>

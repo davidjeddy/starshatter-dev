@@ -1,4 +1,4 @@
-#StarShatter Dev Web Application
+# StarShatter Dev Web Application
 
 ## Background
 This site was put together around 2002 as a file repository for modifications for a game titled `StarShatter`.

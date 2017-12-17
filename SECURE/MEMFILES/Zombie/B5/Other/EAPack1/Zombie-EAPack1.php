@@ -5,7 +5,7 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Other, EA Pack 1<BR>3:15 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Zombie/b5/Other/EAPack1/EA-Pack1.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Zombie/b5/Other/EAPack1/EA-Pack1.zip" target="_self" class="shipdesigners" >
 Download Zombie's EA Pack 1</a>
 								</td>
 						</tr>

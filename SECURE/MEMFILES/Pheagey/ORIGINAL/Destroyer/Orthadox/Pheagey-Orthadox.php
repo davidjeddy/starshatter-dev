@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Orthadox<BR>11:31 am, November 27, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Pheagey/original/Destroyer/Orthadox/orthadox.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Pheagey/original/Destroyer/Orthadox/orthadox.zip" target="_self" class="shipdesigners" >
 Download Pheagey 's Orthadox</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Destroyer/Orthadox/Orthadox-1.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Destroyer/Orthadox/tmb_Orthadox-1.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Destroyer/Orthadox/Orthadox-1.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Destroyer/Orthadox/tmb_Orthadox-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Destroyer/Orthadox/Orthadox-2.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Destroyer/Orthadox/tmb_Orthadox-2.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Destroyer/Orthadox/Orthadox-2.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Destroyer/Orthadox/tmb_Orthadox-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

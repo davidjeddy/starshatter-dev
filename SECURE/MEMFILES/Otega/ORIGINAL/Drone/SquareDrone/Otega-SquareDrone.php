@@ -5,7 +5,7 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Drone, Square Drone<BR>3:28 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Otega/original/Drone/SquareDrone/otega_squaredrone.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Otega/original/Drone/SquareDrone/otega_squaredrone.zip" target="_self" class="shipdesigners" >
 Download Otega 's Square Drone</a>
 								</td>
 						</tr>

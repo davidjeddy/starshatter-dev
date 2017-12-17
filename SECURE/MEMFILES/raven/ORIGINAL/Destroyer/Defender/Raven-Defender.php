@@ -5,7 +5,7 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Defender<BR>3:20 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Raven/original/Destroyer/Defender/defender.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Raven/original/Destroyer/Defender/defender.zip" target="_self" class="shipdesigners" >
 Download Raven's Defender</a>
 								</td>
 						</tr>

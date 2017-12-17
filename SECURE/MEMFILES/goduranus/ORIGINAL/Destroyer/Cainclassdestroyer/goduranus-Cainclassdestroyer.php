@@ -5,14 +5,14 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Cain class destroyer<BR>10:57 pm, February 2, 2003, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/goduranus/original/Destroyer/Cainclassdestroyer/Cain.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/goduranus/original/Destroyer/Cainclassdestroyer/Cain.zip" target="_self" class="shipdesigners" >
 Download goduranus 's Cain class destroyer</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/goduranus/original/Destroyer/Cainclassdestroyer/Cainclassdestroyer-1.jpg" target="new">
-<img src="secure/memfiles/goduranus/original/Destroyer/Cainclassdestroyer/tmb_Cainclassdestroyer-1.jpg" border="0">
+<a href="SECURE/MEMFILES/goduranus/original/Destroyer/Cainclassdestroyer/Cainclassdestroyer-1.jpg" target="new">
+<img src="SECURE/MEMFILES/goduranus/original/Destroyer/Cainclassdestroyer/tmb_Cainclassdestroyer-1.jpg" border="0">
 </a>
 						</td>
 						<td align="center" valign="middle"><font class="words">&nbsp;&nbsp;&nbsp;</font></td>

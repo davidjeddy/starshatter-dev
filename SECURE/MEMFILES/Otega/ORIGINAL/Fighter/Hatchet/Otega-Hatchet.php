@@ -5,7 +5,7 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Fighter, Hatchet<BR>3:27 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Otega/original/Fighter/Hatchet/otega_hatchet.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Otega/original/Fighter/Hatchet/otega_hatchet.zip" target="_self" class="shipdesigners" >
 Download Otega 's Hatchet</a>
 								</td>
 						</tr>

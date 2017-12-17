@@ -5,14 +5,14 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Fighter, Freedom fighter<BR>1:00 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/crazy-eddie/original/Fighter/Freedomfighter/ce_ff.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/crazy-eddie/original/Fighter/Freedomfighter/ce_ff.zip" target="_self" class="shipdesigners" >
 Download crazy-eddie 's Freedom fighter</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/crazy-eddie/original/Fighter/Freedomfighter/Freedomfighter-1.jpg" target="new">
-<img src="secure/memfiles/crazy-eddie/original/Fighter/Freedomfighter/tmb_Freedomfighter-1.jpg" border="0">
+<a href="SECURE/MEMFILES/crazy-eddie/original/Fighter/Freedomfighter/Freedomfighter-1.jpg" target="new">
+<img src="SECURE/MEMFILES/crazy-eddie/original/Fighter/Freedomfighter/tmb_Freedomfighter-1.jpg" border="0">
 </a>
 						</td>
 						<td align="center" valign="middle"><font class="words">&nbsp;&nbsp;&nbsp;</font></td>

@@ -58,7 +58,7 @@ icon_image.src="ssd.ico";
 
 <?php
 //function calling DIR search
-RecurseDir("secure/memfiles");
+RecurseDir("SECURE/MEMFILES");
 
 //function that searches
 function RecurseDir($directory)
@@ -98,13 +98,13 @@ end extention search
 pretext parsing, can we get ride of this?
 */
 
-	if(substr($filepath, 0, 16)=="secure/memfiles/")
+	if(substr($filepath, 0, 16)=="SECURE/MEMFILES/")
 		{
 			$filenames=$filepath;
 			$filepath2=substr($filepath, 16, 128);
 			//echo "<BR><BR><BR>filenames&nbsp;&nbsp;&nbsp;";//echo $filenames; //echo"<BR>";
 			//echo "filename after pretext strip&nbsp;&nbsp;&nbsp;"; //echo $filepath2; //echo"<BR>";
-			//echo"Pretextstrp good (secure/memfiles/)<BR><BR>";
+			//echo"Pretextstrp good (SECURE/MEMFILES/)<BR><BR>";
 /*
 end pretext parsing- else is at the bottom
 */

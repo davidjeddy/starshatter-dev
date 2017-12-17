@@ -5,14 +5,14 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Frigate, RNEC<BR>3:06 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/crazy-eddie/original/Frigate/RNEC/rnec.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/crazy-eddie/original/Frigate/RNEC/rnec.zip" target="_self" class="shipdesigners" >
 Download crazy-eddie 's RNEC</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/crazy-eddie/original/Frigate/RNEC/RNEC-1.jpg" target="new">
-<img src="secure/memfiles/crazy-eddie/original/Frigate/RNEC/tmb_RNEC-1.jpg" border="0">
+<a href="SECURE/MEMFILES/crazy-eddie/original/Frigate/RNEC/RNEC-1.jpg" target="new">
+<img src="SECURE/MEMFILES/crazy-eddie/original/Frigate/RNEC/tmb_RNEC-1.jpg" border="0">
 </a>
 						</td>
 						<td align="center" valign="middle"><font class="words">&nbsp;&nbsp;&nbsp;</font></td>

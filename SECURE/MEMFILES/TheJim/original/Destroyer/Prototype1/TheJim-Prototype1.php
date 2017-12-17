@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Prototype 1<BR>10:51 pm, April 21, 2003, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/TheJim/original/Destroyer/Prototype1/D1.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/TheJim/original/Destroyer/Prototype1/D1.zip" target="_self" class="shipdesigners" >
 Download TheJim 's Prototype 1</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/TheJim/original/Destroyer/Prototype1/Prototype1-1.jpg" target="new">
-<img src="secure/memfiles/TheJim/original/Destroyer/Prototype1/tmb_Prototype1-1.jpg" border="0">
+<a href="SECURE/MEMFILES/TheJim/original/Destroyer/Prototype1/Prototype1-1.jpg" target="new">
+<img src="SECURE/MEMFILES/TheJim/original/Destroyer/Prototype1/tmb_Prototype1-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/TheJim/original/Destroyer/Prototype1/Prototype1-2.jpg" target="new">
-<img src="secure/memfiles/TheJim/original/Destroyer/Prototype1/tmb_Prototype1-2.jpg" border="0">
+<a href="SECURE/MEMFILES/TheJim/original/Destroyer/Prototype1/Prototype1-2.jpg" target="new">
+<img src="SECURE/MEMFILES/TheJim/original/Destroyer/Prototype1/tmb_Prototype1-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

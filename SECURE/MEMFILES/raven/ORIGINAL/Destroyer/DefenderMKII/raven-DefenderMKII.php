@@ -5,14 +5,14 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Defender MKII<BR>4:11 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/raven/original/Destroyer/DefenderMKII/defender.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/raven/original/Destroyer/DefenderMKII/defender.zip" target="_self" class="shipdesigners" >
 Download raven 's Defender MKII</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/raven/original/Destroyer/DefenderMKII/DefenderMKII-1.jpg" target="new">
-<img src="secure/memfiles/raven/original/Destroyer/DefenderMKII/tmb_DefenderMKII-1.jpg" border="0">
+<a href="SECURE/MEMFILES/raven/original/Destroyer/DefenderMKII/DefenderMKII-1.jpg" target="new">
+<img src="SECURE/MEMFILES/raven/original/Destroyer/DefenderMKII/tmb_DefenderMKII-1.jpg" border="0">
 </a>
 						</td>
 						<td align="center" valign="middle"><font class="words">&nbsp;&nbsp;&nbsp;</font></td>

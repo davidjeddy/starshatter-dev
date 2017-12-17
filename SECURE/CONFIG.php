@@ -1,7 +1,7 @@
 <?php
-$the_path= "/apache/htdocs/ssd/secure/memfiles/";
-$the_path2= "/apache/htdocs/ssd/secure/memfiles/";
-$the_path4= "/ssd/secure/memfiles/";
+$the_path= "/apache/htdocs/ssd/SECURE/MEMFILES/";
+$the_path2= "/apache/htdocs/ssd/SECURE/MEMFILES/";
+$the_path4= "/ssd/SECURE/MEMFILES/";
 
 $cfgAdminPW="celcer07";
 

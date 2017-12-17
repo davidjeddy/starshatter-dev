@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Warship<BR>3:10 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/crazy-eddie/original/Destroyer/Warship/warship.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/crazy-eddie/original/Destroyer/Warship/warship.zip" target="_self" class="shipdesigners" >
 Download crazy-eddie 's Warship</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/crazy-eddie/original/Destroyer/Warship/Warship-1.jpg" target="new">
-<img src="secure/memfiles/crazy-eddie/original/Destroyer/Warship/tmb_Warship-1.jpg" border="0">
+<a href="SECURE/MEMFILES/crazy-eddie/original/Destroyer/Warship/Warship-1.jpg" target="new">
+<img src="SECURE/MEMFILES/crazy-eddie/original/Destroyer/Warship/tmb_Warship-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/crazy-eddie/original/Destroyer/Warship/Warship-2.jpg" target="new">
-<img src="secure/memfiles/crazy-eddie/original/Destroyer/Warship/tmb_Warship-2.jpg" border="0">
+<a href="SECURE/MEMFILES/crazy-eddie/original/Destroyer/Warship/Warship-2.jpg" target="new">
+<img src="SECURE/MEMFILES/crazy-eddie/original/Destroyer/Warship/tmb_Warship-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

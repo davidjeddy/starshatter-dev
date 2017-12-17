@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Frigate, Baily Class Mass Driver<BR>5:42 pm, February 6, 2003, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/Bailey.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/Bailey.zip" target="_self" class="shipdesigners" >
 Download Pheagey 's Baily Class Mass Driver</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/BailyClassMassDriver-1.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/tmb_BailyClassMassDriver-1.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/BailyClassMassDriver-1.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/tmb_BailyClassMassDriver-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/BailyClassMassDriver-2.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/tmb_BailyClassMassDriver-2.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/BailyClassMassDriver-2.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/tmb_BailyClassMassDriver-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

@@ -5,7 +5,7 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">MissionDEF, CannonShipbasicMissions<BR>10:50 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Pheagey/original/MissionDEF/CannonShipbasicMissions/CannonShip-BasicMissions.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Pheagey/original/MissionDEF/CannonShipbasicMissions/CannonShip-BasicMissions.zip" target="_self" class="shipdesigners" >
 Download Pheagey 's CannonShipbasicMissions</a>
 								</td>
 						</tr>

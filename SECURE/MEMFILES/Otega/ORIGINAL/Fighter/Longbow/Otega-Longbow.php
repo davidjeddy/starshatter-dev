@@ -5,14 +5,14 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Fighter, Longbow<BR>3:26 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Otega/original/Fighter/Longbow/otega_longbow.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Otega/original/Fighter/Longbow/otega_longbow.zip" target="_self" class="shipdesigners" >
 Download Otega 's Longbow</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Otega/original/Fighter/Longbow/Longbow-1.jpg" target="new">
-<img src="secure/memfiles/Otega/original/Fighter/Longbow/tmb_Longbow-1.jpg" border="0">
+<a href="SECURE/MEMFILES/Otega/original/Fighter/Longbow/Longbow-1.jpg" target="new">
+<img src="SECURE/MEMFILES/Otega/original/Fighter/Longbow/tmb_Longbow-1.jpg" border="0">
 </a>
 						</td>
 						<td align="center" valign="middle"><font class="words">&nbsp;&nbsp;&nbsp;</font></td>

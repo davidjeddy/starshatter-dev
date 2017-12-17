@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Fighter, Master Bomber B357<BR>2:00 am, November 6, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Pheagey/original/Fighter/MasterBomberB357/masterbomberv1.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Pheagey/original/Fighter/MasterBomberB357/masterbomberv1.zip" target="_self" class="shipdesigners" >
 Download Pheagey 's Master Bomber B357</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Fighter/MasterBomberB357/MasterBomberB357-1.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Fighter/MasterBomberB357/tmb_MasterBomberB357-1.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Fighter/MasterBomberB357/MasterBomberB357-1.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Fighter/MasterBomberB357/tmb_MasterBomberB357-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Fighter/MasterBomberB357/MasterBomberB357-2.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Fighter/MasterBomberB357/tmb_MasterBomberB357-2.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Fighter/MasterBomberB357/MasterBomberB357-2.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Fighter/MasterBomberB357/tmb_MasterBomberB357-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

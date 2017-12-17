@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Frigate, KAF<BR>1:05 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/crazy-eddie/original/Frigate/KAF/ce_kaf.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/crazy-eddie/original/Frigate/KAF/ce_kaf.zip" target="_self" class="shipdesigners" >
 Download crazy-eddie 's KAF</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/crazy-eddie/original/Frigate/KAF/KAF-1.jpg" target="new">
-<img src="secure/memfiles/crazy-eddie/original/Frigate/KAF/tmb_KAF-1.jpg" border="0">
+<a href="SECURE/MEMFILES/crazy-eddie/original/Frigate/KAF/KAF-1.jpg" target="new">
+<img src="SECURE/MEMFILES/crazy-eddie/original/Frigate/KAF/tmb_KAF-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/crazy-eddie/original/Frigate/KAF/KAF-2.jpg" target="new">
-<img src="secure/memfiles/crazy-eddie/original/Frigate/KAF/tmb_KAF-2.jpg" border="0">
+<a href="SECURE/MEMFILES/crazy-eddie/original/Frigate/KAF/KAF-2.jpg" target="new">
+<img src="SECURE/MEMFILES/crazy-eddie/original/Frigate/KAF/tmb_KAF-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Herrenvolk<BR>9:05 am, February 3, 2003, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/goduranus/original/Destroyer/Herrenvolk/Herrenvolk.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/goduranus/original/Destroyer/Herrenvolk/Herrenvolk.zip" target="_self" class="shipdesigners" >
 Download goduranus 's Herrenvolk</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/goduranus/original/Destroyer/Herrenvolk/Herrenvolk-1.jpg" target="new">
-<img src="secure/memfiles/goduranus/original/Destroyer/Herrenvolk/tmb_Herrenvolk-1.jpg" border="0">
+<a href="SECURE/MEMFILES/goduranus/original/Destroyer/Herrenvolk/Herrenvolk-1.jpg" target="new">
+<img src="SECURE/MEMFILES/goduranus/original/Destroyer/Herrenvolk/tmb_Herrenvolk-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/goduranus/original/Destroyer/Herrenvolk/Herrenvolk-2.jpg" target="new">
-<img src="secure/memfiles/goduranus/original/Destroyer/Herrenvolk/tmb_Herrenvolk-2.jpg" border="0">
+<a href="SECURE/MEMFILES/goduranus/original/Destroyer/Herrenvolk/Herrenvolk-2.jpg" target="new">
+<img src="SECURE/MEMFILES/goduranus/original/Destroyer/Herrenvolk/tmb_Herrenvolk-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

@@ -56,9 +56,9 @@ Date Added: 4/7/2003.<br>
 <TR><TD align="center">
 <font class="words1">
 <p align="left" width="100%">
-<a href="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/BailyClassMassDriver-1.jpg" target="_new">
-<img src="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/tmb_BailyClassMassDriver-1.jpg" border="0" width="187" height="141" alt="EV Yorktown"></a>
-<a href="secure/memfiles/Pheagey/original/Frigate/BailyClassMassDriver/Bailey.zip" target="_links" class="links">Downlown</a><BR>
+<a href="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/BailyClassMassDriver-1.jpg" target="_new">
+<img src="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/tmb_BailyClassMassDriver-1.jpg" border="0" width="187" height="141" alt="EV Yorktown"></a>
+<a href="SECURE/MEMFILES/Pheagey/original/Frigate/BailyClassMassDriver/Bailey.zip" target="_links" class="links">Downlown</a><BR>
 Creator: Pheagey<br>
 Picture of: Pheagey's Bailey Class<br>
 Date Added: 2/8/2003.<br>

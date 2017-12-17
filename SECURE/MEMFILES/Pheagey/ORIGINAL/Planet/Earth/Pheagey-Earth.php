@@ -5,7 +5,7 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Planet, Earth<BR>4:21 pm, November 26, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Pheagey/original/Planet/Earth/earth.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Pheagey/original/Planet/Earth/earth.zip" target="_self" class="shipdesigners" >
 Download Pheagey 's Earth</a>
 								</td>
 						</tr>

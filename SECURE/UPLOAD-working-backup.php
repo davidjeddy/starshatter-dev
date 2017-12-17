@@ -356,8 +356,8 @@ function upload($the_file,$username,$object_name,$object_type,$version_number,$m
 		$timedate2 = date("g:i a,");
 		$timedate3 = date("F j, Y, ");
 		$the_path3=$the_path2 . $username . "/" . $mod_class . "/" . $object_type . "/" . $object_name . "/";
-		$the_path4="secure/memfiles/";
-		$write_the_file_name_path="secure/memfiles/".$username."/".$mod_class."/".$object_type."/".$object_name."/".$the_file_name;
+		$the_path4="SECURE/MEMFILES/";
+		$write_the_file_name_path="SECURE/MEMFILES/".$username."/".$mod_class."/".$object_type."/".$object_name."/".$the_file_name;
 		$writephpfile=$the_path2 . $username . "/" . $mod_class . "/" . $object_type . "/" . $object_name . "/" . $username . "-" . $object_name . ".php";
 		$imgpath=$the_path4 . $username . "/" . $mod_class . "/"  . $object_type . "/" . $object_name."/";
 		$imgminipath=$the_path4 . $username . "/" . $mod_class . "/" . $object_type . "/" . $object_name . "/tmb_";

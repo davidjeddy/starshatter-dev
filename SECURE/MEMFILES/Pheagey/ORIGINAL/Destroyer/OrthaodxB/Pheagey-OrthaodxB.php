@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Orthaodx B<BR>11:33 am, November 27, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/Pheagey/original/Destroyer/OrthaodxB/orthadoxb.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/Pheagey/original/Destroyer/OrthaodxB/orthadoxb.zip" target="_self" class="shipdesigners" >
 Download Pheagey 's Orthaodx B</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Destroyer/OrthaodxB/OrthaodxB-1.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Destroyer/OrthaodxB/tmb_OrthaodxB-1.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Destroyer/OrthaodxB/OrthaodxB-1.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Destroyer/OrthaodxB/tmb_OrthaodxB-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/Pheagey/original/Destroyer/OrthaodxB/OrthaodxB-2.jpg" target="new">
-<img src="secure/memfiles/Pheagey/original/Destroyer/OrthaodxB/tmb_OrthaodxB-2.jpg" border="0">
+<a href="SECURE/MEMFILES/Pheagey/original/Destroyer/OrthaodxB/OrthaodxB-2.jpg" target="new">
+<img src="SECURE/MEMFILES/Pheagey/original/Destroyer/OrthaodxB/tmb_OrthaodxB-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

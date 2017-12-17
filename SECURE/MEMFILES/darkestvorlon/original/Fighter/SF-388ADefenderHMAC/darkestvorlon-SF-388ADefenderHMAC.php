@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Fighter, SF-388A Defender HMAC<BR>6:04 pm, March 11, 2003, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/SF388ADefenderHMAC.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/SF388ADefenderHMAC.zip" target="_self" class="shipdesigners" >
 Download darkestvorlon 's SF-388A Defender HMAC</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/SF-388ADefenderHMAC-1.jpg" target="new">
-<img src="secure/memfiles/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/tmb_SF-388ADefenderHMAC-1.jpg" border="0">
+<a href="SECURE/MEMFILES/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/SF-388ADefenderHMAC-1.jpg" target="new">
+<img src="SECURE/MEMFILES/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/tmb_SF-388ADefenderHMAC-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/SF-388ADefenderHMAC-2.jpg" target="new">
-<img src="secure/memfiles/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/tmb_SF-388ADefenderHMAC-2.jpg" border="0">
+<a href="SECURE/MEMFILES/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/SF-388ADefenderHMAC-2.jpg" target="new">
+<img src="SECURE/MEMFILES/darkestvorlon/original/Fighter/SF-388ADefenderHMAC/tmb_SF-388ADefenderHMAC-2.jpg" border="0">
 </a>
 						</td>
 					</tr>

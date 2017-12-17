@@ -5,19 +5,19 @@
 							<tr>
 									<td align="left" valign="middle" width="50%"><font class="words2">Destroyer, Goliath<BR>9:07 pm, November 13, 2002, </font>
 								</td>
-								<td align="right" valign="middle" width="50%"><a href="secure/memfiles/goduranus/original/Destroyer/Goliath/mods.zip" target="_self" class="shipdesigners" >
+								<td align="right" valign="middle" width="50%"><a href="SECURE/MEMFILES/goduranus/original/Destroyer/Goliath/mods.zip" target="_self" class="shipdesigners" >
 Download goduranus 's Goliath</a>
 								</td>
 						</tr>
 						<tr>
 <td align="center" valign="middle">
-<a href="secure/memfiles/goduranus/original/Destroyer/Goliath/Goliath-1.jpg" target="new">
-<img src="secure/memfiles/goduranus/original/Destroyer/Goliath/tmb_Goliath-1.jpg" border="0">
+<a href="SECURE/MEMFILES/goduranus/original/Destroyer/Goliath/Goliath-1.jpg" target="new">
+<img src="SECURE/MEMFILES/goduranus/original/Destroyer/Goliath/tmb_Goliath-1.jpg" border="0">
 </a>
 						</td>
 <td align="center" valign="middle">
-<a href="secure/memfiles/goduranus/original/Destroyer/Goliath/Goliath-2.jpg" target="new">
-<img src="secure/memfiles/goduranus/original/Destroyer/Goliath/tmb_Goliath-2.jpg" border="0">
+<a href="SECURE/MEMFILES/goduranus/original/Destroyer/Goliath/Goliath-2.jpg" target="new">
+<img src="SECURE/MEMFILES/goduranus/original/Destroyer/Goliath/tmb_Goliath-2.jpg" border="0">
 </a>
 						</td>
 					</tr>
